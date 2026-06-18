@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-06-18T17:09:11Z",
+  "run_at": "2026-06-18T17:14:28Z",
   "queries": {
     "Content Marketing": {
       "total_results": 5304,
@@ -97,17 +97,17 @@
         },
         {
           "position": 14,
-          "angebot_id": "10375861691",
-          "titel": "Content Marketing",
-          "anbieter": "OMR Education GmbH",
-          "termine": 1
-        },
-        {
-          "position": 15,
           "angebot_id": "10388804060",
           "titel": "Datenanalyse im Content Marketing",
           "anbieter": "Karriere Tutor GmbH",
           "termine": 204
+        },
+        {
+          "position": 15,
+          "angebot_id": "10375861691",
+          "titel": "Content Marketing",
+          "anbieter": "OMR Education GmbH",
+          "termine": 1
         },
         {
           "position": 16,
@@ -546,17 +546,17 @@
         },
         {
           "position": 16,
-          "angebot_id": "10397017009",
-          "titel": "Digital Marketing mit KI: SEO, SEA und Social Media im Fokus",
-          "anbieter": "mycareernow",
-          "termine": 54
-        },
-        {
-          "position": 17,
           "angebot_id": "10379355738",
           "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
           "anbieter": "GrandEdu GmbH",
           "termine": 218
+        },
+        {
+          "position": 17,
+          "angebot_id": "10397017009",
+          "titel": "Digital Marketing mit KI: SEO, SEA und Social Media im Fokus",
+          "anbieter": "mycareernow",
+          "termine": 54
         },
         {
           "position": 18,
