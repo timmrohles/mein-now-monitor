@@ -15,7 +15,7 @@ def dry_run():
     print("TROCKENLAUF — nur Abfrage, kein Schreiben\n")
     for q in OUR_TARGETS:
         try:
-            total, angebote = fetch_query(q, top_n=5)
+            total, angebote, _meta = fetch_query(q, top_n=5)
             print(f"'{q}'  ({total} Treffer)")
             for i, a in enumerate(angebote, 1):
                 titel = (a.get("titel") or "")[:50]

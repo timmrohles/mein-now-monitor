@@ -44,7 +44,16 @@ MARKET_WATCH = [
     "Digital Marketing",
 ]
 
+CONTROL_QUERIES = [
+    # These „Wortreihenfolge ist egal" — Vergleich mit "KI Marketing" (in MARKET_WATCH).
+    # Wenn total_results und Top-10 identisch sind, ist die Reihenfolge tatsächlich egal.
+    "Marketing KI",
+    # These „Klammern werden ignoriert" — gleiche Vergleichsbasis "KI Marketing".
+    # Wenn identisch zu "KI Marketing", werden Klammern wie nicht vorhanden behandelt.
+    "(KI) Marketing",
+]
+
 # Wie viele Plätze pro Begriff protokolliert werden
 TOP_N = 20
 
-ALL_QUERIES = OUR_TARGETS + MARKET_WATCH
+ALL_QUERIES = OUR_TARGETS + MARKET_WATCH + CONTROL_QUERIES

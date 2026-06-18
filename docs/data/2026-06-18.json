@@ -1,2613 +1,4943 @@
 {
-  "run_at": "2026-06-18T17:14:28Z",
+  "run_at": "2026-06-18T18:05:28Z",
   "queries": {
     "Content Marketing": {
       "total_results": 5304,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10338090949",
           "titel": "Content Marketing und Content Creation",
           "anbieter": "Business Trends Academy",
-          "termine": 76
+          "termine": 76,
+          "titel_len": 38,
+          "inhalt_len": 3298,
+          "q_in_titel": 1,
+          "q_in_inhalt": 7,
+          "q_words_in_titel": 3
         },
         {
           "position": 2,
           "angebot_id": "10361683988",
           "titel": "Content Marketing Manager",
           "anbieter": "GFN GmbH",
-          "termine": 407
+          "termine": 407,
+          "titel_len": 25,
+          "inhalt_len": 1702,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10373512231",
           "titel": "Fachwissen Content Marketing",
           "anbieter": "alfatraining Bildungszentrum GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 28,
+          "inhalt_len": 982,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10382965890",
           "titel": "Performance- und Content Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 34,
+          "inhalt_len": 2839,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10388684170",
           "titel": "Online Content Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 24,
+          "inhalt_len": 3432,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10315134700",
           "titel": "Content Marketing",
           "anbieter": "IU Akademie IU Internationale Hochschule",
-          "termine": 2594
+          "termine": 2594,
+          "titel_len": 17,
+          "inhalt_len": 1117,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10375894668",
           "titel": "Teamassistenz Content Marketing",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 31,
+          "inhalt_len": 4886,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "10338727771",
           "titel": "Content Marketing",
           "anbieter": "ebam Akademie für Wirtschaft und Management",
-          "termine": 148
+          "termine": 148,
+          "titel_len": 17,
+          "inhalt_len": 844,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10284313778",
           "titel": "Content Marketing Manager/-in",
           "anbieter": "Akademie Überlingen",
-          "termine": 82
+          "termine": 82,
+          "titel_len": 29,
+          "inhalt_len": 2080,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10342367601",
           "titel": "Content Marketing",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 500
+          "termine": 500,
+          "titel_len": 17,
+          "inhalt_len": 4554,
+          "q_in_titel": 1,
+          "q_in_inhalt": 22,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "10376376128",
           "titel": "Content Marketing",
           "anbieter": "velpTEC GmbH",
-          "termine": 192
+          "termine": 192,
+          "titel_len": 17,
+          "inhalt_len": 665,
+          "q_in_titel": 1,
+          "q_in_inhalt": 6,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10385692478",
           "titel": "Content Marketing",
           "anbieter": "Talentspring Academy Group",
-          "termine": 24
+          "termine": 24,
+          "titel_len": 17,
+          "inhalt_len": 927,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10376994574",
           "titel": "Content Marketing",
           "anbieter": "IFM GmbH",
-          "termine": 14
+          "termine": 14,
+          "titel_len": 17,
+          "inhalt_len": 1900,
+          "q_in_titel": 1,
+          "q_in_inhalt": 8,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
-          "angebot_id": "10388804060",
-          "titel": "Datenanalyse im Content Marketing",
-          "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
-        },
-        {
-          "position": 15,
           "angebot_id": "10375861691",
           "titel": "Content Marketing",
           "anbieter": "OMR Education GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 17,
+          "inhalt_len": 2242,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 15,
+          "angebot_id": "10388804060",
+          "titel": "Datenanalyse im Content Marketing",
+          "anbieter": "Karriere Tutor GmbH",
+          "termine": 204,
+          "titel_len": 33,
+          "inhalt_len": 1607,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10298150532",
           "titel": "Produktmanager:in Content Marketing",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 35,
+          "inhalt_len": 2961,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10379348850",
           "titel": "Inbound- und Content-Marketing",
           "anbieter": "DAA - Deutsche Angestellten- Akademie gGmbH",
-          "termine": 281
+          "termine": 281,
+          "titel_len": 30,
+          "inhalt_len": 636,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10385704594",
           "titel": "E-Marketing und Content Erstellung",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 34,
+          "inhalt_len": 1990,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10377307173",
           "titel": "Content Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 17,
+          "inhalt_len": 2659,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10367849558",
           "titel": "Suchmaschinenoptimierung (SEO) und Content Marketing",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 52,
+          "inhalt_len": 4183,
+          "q_in_titel": 1,
+          "q_in_inhalt": 19,
+          "q_words_in_titel": 2
         }
       ]
     },
     "KI Content Marketing": {
       "total_results": 2463,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10365266307",
           "titel": "Suchmaschinenmarketing mit KI: Content und Suchmaschinenoptimierung",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 62
+          "termine": 62,
+          "titel_len": 67,
+          "inhalt_len": 2715,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10367853620",
           "titel": "Content Marketing mit KI",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 24,
+          "inhalt_len": 5584,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 3,
           "angebot_id": "10379355738",
           "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 61,
+          "inhalt_len": 1337,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 4,
           "angebot_id": "10396967332",
           "titel": "Social Media Marketing mit KI, SEO, SEA und Content-Recht",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 57,
+          "inhalt_len": 1579,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 5,
           "angebot_id": "10344970383",
           "titel": "KI im Content Marketing",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 23,
+          "inhalt_len": 1104,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 6,
           "angebot_id": "10384054671",
           "titel": "KI im Marketing mit Schwerpunkt Content und Performance",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 55,
+          "inhalt_len": 1188,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 7,
           "angebot_id": "10379368040",
           "titel": "KI im Content Marketing und Medienproduktion",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 44,
+          "inhalt_len": 1464,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 8,
           "angebot_id": "10355432359",
           "titel": "KI-gestütztes Content Marketing & Content Creation",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 50,
+          "inhalt_len": 1057,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 4
         },
         {
           "position": 9,
           "angebot_id": "10379357994",
           "titel": "Marketing mit KI: Social Media, Content und Kampagnen für Social Media Manager",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 78,
+          "inhalt_len": 1669,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 10,
           "angebot_id": "10379711861",
           "titel": "KI Content Creation im digitalen Marketing",
           "anbieter": "COMCAVE.COLLEGE GmbH",
-          "termine": 472
+          "termine": 472,
+          "titel_len": 42,
+          "inhalt_len": 1847,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 11,
           "angebot_id": "10397468020",
           "titel": "KI, SEO Content und SEA Marketing",
           "anbieter": "XDi - Experience Design Institut GmbH",
-          "termine": 8
+          "termine": 8,
+          "titel_len": 33,
+          "inhalt_len": 2900,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 12,
           "angebot_id": "10389238650",
           "titel": "KI im Marketing - Automatisierung, Content &amp; Datenanalyse",
           "anbieter": "New Horizons München - IT Computer und BusinessTraining Trainings",
-          "termine": 30
+          "termine": 30,
+          "titel_len": 61,
+          "inhalt_len": 4109,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 13,
           "angebot_id": "10379701751",
           "titel": "KI Content Marketing",
           "anbieter": "COMCAVE.COLLEGE GmbH",
-          "termine": 472
+          "termine": 472,
+          "titel_len": 20,
+          "inhalt_len": 2072,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 14,
           "angebot_id": "10255189617",
           "titel": "Content Creator und KI advanced",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 31,
+          "inhalt_len": 2949,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10379965021",
           "titel": "Content Marketing mit KI: Social Media und Community-Management",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 63
+          "termine": 63,
+          "titel_len": 63,
+          "inhalt_len": 2328,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 16,
           "angebot_id": "10389248834",
           "titel": "Marketing-Texte und Content mit KI erstellen",
           "anbieter": "A-Leecon GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 44,
+          "inhalt_len": 3314,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 17,
           "angebot_id": "10310650131",
           "titel": "KI für Content, Design & visuelles Marketing",
           "anbieter": "Wildner Akademie für Digitale Wirtschaft & Management",
-          "termine": 77
+          "termine": 77,
+          "titel_len": 44,
+          "inhalt_len": 794,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 18,
           "angebot_id": "10225575181",
           "titel": "Content Manager und Grundlagen KI",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 33,
+          "inhalt_len": 4112,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10371631658",
           "titel": "KI Content Marketing Landingpages",
           "anbieter": "Ironhack Germany GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 33,
+          "inhalt_len": 504,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10317361931",
           "titel": "Content Marketing Manager mit KI-gestützten Strategien",
           "anbieter": "CBW College Berufliche Weiterbildung GmbH",
-          "termine": 70
+          "termine": 70,
+          "titel_len": 54,
+          "inhalt_len": 1438,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         }
       ]
     },
     "Social Media Marketing": {
       "total_results": 4963,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10395195376",
           "titel": "Social Media Marketing und Social Media Monitoring",
           "anbieter": "IU Akademie IU Internationale Hochschule",
-          "termine": 650
+          "termine": 650,
+          "titel_len": 50,
+          "inhalt_len": 2021,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 5
         },
         {
           "position": 2,
           "angebot_id": "10351626608",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "MAS Sprachschule München",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 3,
           "angebot_id": "10395334097",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "IBB Institut für Berufliche Bildung AG",
-          "termine": 220
+          "termine": 220,
+          "titel_len": 64,
+          "inhalt_len": 406,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 4,
           "angebot_id": "10355432665",
           "titel": "Social Media Marketing & Influencer Marketing",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 45,
+          "inhalt_len": 1271,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 4
         },
         {
           "position": 5,
           "angebot_id": "10379205898",
           "titel": "Marketing Aufbaukurs Online Marketing / Social Media Marketing",
           "anbieter": "DAA - Deutsche Angestellten- Akademie gGmbH",
-          "termine": 92
+          "termine": 92,
+          "titel_len": 62,
+          "inhalt_len": 109,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 6,
           "angebot_id": "10396907992",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Fortbildungsakademie der Wirtschaft (FAW) gGmbH",
-          "termine": 142
+          "termine": 142,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 7,
           "angebot_id": "10351256478",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "NH Schulungscenter für IT und Business GmbH",
-          "termine": 6
+          "termine": 6,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 8,
           "angebot_id": "10351633206",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Zukunftswerkstatt Mitteldeutschland",
-          "termine": 10
+          "termine": 10,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 9,
           "angebot_id": "10351108034",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Wirtschaftsakademie Küster GmbH",
-          "termine": 10
+          "termine": 10,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 10,
           "angebot_id": "10380658835",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Berger Bildungsinstitut GmbH",
-          "termine": 138
+          "termine": 138,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 11,
           "angebot_id": "10395211702",
           "titel": "Social Media Marketing und Social Advertising",
           "anbieter": "IU Akademie IU Internationale Hochschule",
-          "termine": 650
+          "termine": 650,
+          "titel_len": 45,
+          "inhalt_len": 2563,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 4
         },
         {
           "position": 12,
           "angebot_id": "10351287149",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "AZH Ausbildungszentrum Homburg GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 13,
           "angebot_id": "10378361796",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Berufliche Fortbildungszentren der Bayerischen Wirtschaft (bfz) gGmbH",
-          "termine": 87
+          "termine": 87,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 14,
           "angebot_id": "10353056309",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Lernstudio Barbarossa/MegaKids Fortbildungs GmbH",
-          "termine": 144
+          "termine": 144,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 15,
           "angebot_id": "10351169654",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Prisma Bildungsplattform e. V.",
-          "termine": 5
+          "termine": 5,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 16,
           "angebot_id": "10321331541",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Verein für Integration und Bildung e. V.",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 17,
           "angebot_id": "10374988659",
           "titel": "Social Media",
           "anbieter": "XDi - Experience Design Institut GmbH",
-          "termine": 8
+          "termine": 8,
+          "titel_len": 12,
+          "inhalt_len": 2119,
+          "q_in_titel": 0,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10396805741",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "TÜV Rheinland Akademie GmbH",
-          "termine": 37
+          "termine": 37,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 19,
           "angebot_id": "10313589699",
           "titel": "Social Media Marketing",
           "anbieter": "IU Akademie IU Internationale Hochschule",
-          "termine": 2594
+          "termine": 2594,
+          "titel_len": 22,
+          "inhalt_len": 1719,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10351365336",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Bildungswerk der Hessischen Wirtschaft e. V.",
-          "termine": 27
+          "termine": 27,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         }
       ]
     },
     "KI Social Media": {
       "total_results": 2448,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10379357994",
           "titel": "Marketing mit KI: Social Media, Content und Kampagnen für Social Media Manager",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 78,
+          "inhalt_len": 1669,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 5
         },
         {
           "position": 2,
           "angebot_id": "10396887168",
           "titel": "KI-gestütztes Kundenbeziehungsmanagement mit Social Media und KI-Anwendungen",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 76,
+          "inhalt_len": 2074,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 4
         },
         {
           "position": 3,
           "angebot_id": "10379353999",
           "titel": "KI, Social Media und Digital Marketing Manager",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 46,
+          "inhalt_len": 7945,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 4,
           "angebot_id": "10375687179",
           "titel": "Social Media mit KI",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 125
+          "termine": 125,
+          "titel_len": 19,
+          "inhalt_len": 1495,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 5,
           "angebot_id": "10396973849",
           "titel": "Social Media Marketing und digitale Markenkommunikation mit KI, SEO und SEA",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 75,
+          "inhalt_len": 1848,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 6,
           "angebot_id": "10396967332",
           "titel": "Social Media Marketing mit KI, SEO, SEA und Content-Recht",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 57,
+          "inhalt_len": 1579,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 7,
           "angebot_id": "10396981871",
           "titel": "Social Media Marketing Manager/in mit KI, SEO und SEA",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 53,
+          "inhalt_len": 1646,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 8,
           "angebot_id": "10379965021",
           "titel": "Content Marketing mit KI: Social Media und Community-Management",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 63
+          "termine": 63,
+          "titel_len": 63,
+          "inhalt_len": 2328,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 9,
           "angebot_id": "10324611870",
           "titel": "KI und datenbasiertes Social Media Advertising",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 362
+          "termine": 362,
+          "titel_len": 46,
+          "inhalt_len": 623,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 10,
           "angebot_id": "10380593645",
           "titel": "Fachwissen Social Media Management mit KI",
           "anbieter": "alfatraining Bildungszentrum GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 41,
+          "inhalt_len": 1561,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 11,
           "angebot_id": "10386953739",
           "titel": "Social Media Marketing optimiert durch KI",
           "anbieter": "WBS TRAINING SE",
-          "termine": 264
+          "termine": 264,
+          "titel_len": 41,
+          "inhalt_len": 857,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 12,
           "angebot_id": "10397008715",
           "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für B2B-Unternehmen",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 71,
+          "inhalt_len": 1954,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 13,
           "angebot_id": "10397015498",
           "titel": "Digital Marketing: KI, Social Media, SEO und SEA für die digitale Unternehmensstrategie",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 87,
+          "inhalt_len": 1606,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 14,
           "angebot_id": "10397012312",
           "titel": "Digital Marketing mit KI: SEO, SEA und Social Media in der digitalen Transformation",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 83,
+          "inhalt_len": 1760,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 15,
           "angebot_id": "10379361786",
           "titel": "KI Officer und Social Media",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 27,
+          "inhalt_len": 1432,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 16,
-          "angebot_id": "10379355738",
-          "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
-          "anbieter": "GrandEdu GmbH",
-          "termine": 218
-        },
-        {
-          "position": 17,
           "angebot_id": "10397017009",
           "titel": "Digital Marketing mit KI: SEO, SEA und Social Media im Fokus",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 60,
+          "inhalt_len": 1922,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
+        },
+        {
+          "position": 17,
+          "angebot_id": "10379355738",
+          "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
+          "anbieter": "GrandEdu GmbH",
+          "termine": 218,
+          "titel_len": 61,
+          "inhalt_len": 1337,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 18,
           "angebot_id": "10397009127",
           "titel": "Digital Marketing Manager: KI, Social Media, SEO und SEA gezielt einsetzen",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 74,
+          "inhalt_len": 1858,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 19,
           "angebot_id": "10368380766",
           "titel": "KI-, Social-Media- und Produktmanager/in",
           "anbieter": "LVQ Weiterbildung und Beratung GmbH",
-          "termine": 10
+          "termine": 10,
+          "titel_len": 40,
+          "inhalt_len": 2532,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10225574985",
           "titel": "Social Media advanced und KI basics",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 35,
+          "inhalt_len": 1272,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         }
       ]
     },
     "Performance Marketing": {
       "total_results": 3077,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10392554740",
           "titel": "Performance Marketing und KPI Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 692
+          "termine": 692,
+          "titel_len": 39,
+          "inhalt_len": 625,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 2,
           "angebot_id": "10388682533",
           "titel": "Performance Marketing und KPI Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 39,
+          "inhalt_len": 2988,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 3
         },
         {
           "position": 3,
           "angebot_id": "10392034597",
           "titel": "Data Performance Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 692
+          "termine": 692,
+          "titel_len": 26,
+          "inhalt_len": 705,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10377320387",
           "titel": "Grundlagen des Performance Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 36,
+          "inhalt_len": 2537,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10385047143",
           "titel": "Video- und Bildbearbeitung und Performance Marketing",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 52,
+          "inhalt_len": 2142,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10339677961",
           "titel": "Performance Marketing Management",
           "anbieter": "neuefische GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 32,
+          "inhalt_len": 543,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10345666501",
           "titel": "Performance Marketing und Videoproduktion",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 41,
+          "inhalt_len": 1967,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "10315968026",
           "titel": "Performance Marketing und Mediendesign",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 38,
+          "inhalt_len": 2175,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "9910994",
           "titel": "Data Analyst:in Performance Marketing",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 37,
+          "inhalt_len": 3158,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10382965724",
           "titel": "Digitales Marketing und Online Kampagnen im Performance Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 65,
+          "inhalt_len": 3510,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 3
         },
         {
           "position": 11,
           "angebot_id": "10392544616",
           "titel": "Performance Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 691
+          "termine": 691,
+          "titel_len": 21,
+          "inhalt_len": 638,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10377319130",
           "titel": "Kampagnenmanagement und Performance Marketing im Zusammenspiel mit Google",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 73,
+          "inhalt_len": 3075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10377334469",
           "titel": "Online Marketing Manager mit Schwerpunkt Performance Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 62,
+          "inhalt_len": 3089,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 3
         },
         {
           "position": 14,
           "angebot_id": "10388684670",
           "titel": "Digital Performance Marketing mit SEM/SEO",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 41,
+          "inhalt_len": 2914,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10309964491",
           "titel": "Performance Marketing und Projektmanagement",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 43,
+          "inhalt_len": 2122,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10377319584",
           "titel": "Performance Marketing Manager",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 29,
+          "inhalt_len": 647,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10344970872",
           "titel": "Digital Performance Marketing und Content Spezialist",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 52,
+          "inhalt_len": 851,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10309966795",
           "titel": "Performance Marketing und Storytelling",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 38,
+          "inhalt_len": 1984,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10339680676",
           "titel": "Performance Marketing für Quereinsteiger",
           "anbieter": "neuefische GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 40,
+          "inhalt_len": 1482,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10318992294",
           "titel": "Videografie und Performance Marketing",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 37,
+          "inhalt_len": 2349,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         }
       ]
     },
     "KI Performance Marketing": {
       "total_results": 1575,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10397479386",
           "titel": "E-Commerce Marketing mit KI: SEO und Performance",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 48,
+          "inhalt_len": 3353,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 2,
           "angebot_id": "10339679992",
           "titel": "Performance und Online Marketing und KI",
           "anbieter": "neuefische GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 39,
+          "inhalt_len": 1612,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 3,
           "angebot_id": "10345412105",
           "titel": "KI im Performance Marketing",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 27,
+          "inhalt_len": 1137,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 4,
           "angebot_id": "10388550275",
           "titel": "Marketing Automation mit KI: Performance Marketing, SEA, SEO, Web Analytics und Social Media",
           "anbieter": "CBW College Berufliche Weiterbildung GmbH",
-          "termine": 70
+          "termine": 70,
+          "titel_len": 92,
+          "inhalt_len": 2671,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 4
         },
         {
           "position": 5,
           "angebot_id": "10384053724",
           "titel": "Performance Marketing mit KI und Datenschutz",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 44,
+          "inhalt_len": 1218,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 6,
           "angebot_id": "10309965123",
           "titel": "Performance Marketing und Künstliche Intelligenz (KI)",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 53,
+          "inhalt_len": 2025,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 7,
           "angebot_id": "10379404528",
           "titel": "Strategisches Performance Marketing KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 38,
+          "inhalt_len": 3933,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 8,
           "angebot_id": "10397955663",
           "titel": "KI-gestützte Vertriebsperformance mit Performance Marekting",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 59,
+          "inhalt_len": 1772,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10384054671",
           "titel": "KI im Marketing mit Schwerpunkt Content und Performance",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 55,
+          "inhalt_len": 1188,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 10,
           "angebot_id": "10384054441",
           "titel": "KI Automation im Performance Marketing und Prozessmanagement",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 60,
+          "inhalt_len": 1456,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 11,
           "angebot_id": "10397478833",
           "titel": "Digitales Marketing: KI - Automatisierung & Performance im E-Commerce",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 69,
+          "inhalt_len": 2542,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 12,
           "angebot_id": "10345494788",
           "titel": "Weiterbildung im Bereich KI-gestütztes Performance-Marketing",
           "anbieter": "Spiced Academy GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 60,
+          "inhalt_len": 1175,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 13,
           "angebot_id": "10344970339",
           "titel": "Performance Marketing und Webdesign mit KI",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 42,
+          "inhalt_len": 1114,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 14,
           "angebot_id": "10384054462",
           "titel": "Content und Performance Automation mit KI im Marketing",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 54,
+          "inhalt_len": 1283,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 15,
           "angebot_id": "10379405206",
           "titel": "Strategisches Performance Marketing mit Intensivkurs KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 55,
+          "inhalt_len": 4532,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 16,
           "angebot_id": "10344970263",
           "titel": "Performance Marketing mit Schwerpunkt KI",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 40,
+          "inhalt_len": 1362,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 17,
           "angebot_id": "10350699882",
           "titel": "Bild- und Videobearbeitung im Performance Marketing mit KI",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 58,
+          "inhalt_len": 1018,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 18,
           "angebot_id": "10391168455",
           "titel": "E-Commerce Performance Marketing mit KI",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 39,
+          "inhalt_len": 1343,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 19,
           "angebot_id": "10393224347",
           "titel": "Performance Marketing und KI-Analyse und Rechtsgrundlagen",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 57,
+          "inhalt_len": 2481,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10379400224",
           "titel": "Performance Marketing Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 32,
+          "inhalt_len": 3673,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         }
       ]
     },
     "KI Automation": {
       "total_results": 685,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10375906282",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Process Automation (RPA) mit Zusatzqualifikation Python",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 106,
+          "inhalt_len": 4059,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10394252037",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Robotic Process Automation (RPA) mit Python",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 94,
+          "inhalt_len": 1052,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10376957082",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Workflow-",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 60,
+          "inhalt_len": 2562,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 4,
           "angebot_id": "10375890168",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Process Automation (RPA) mit Zusatzqualifikation DevOps und Grundlagen des Projektmanagements",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 144,
+          "inhalt_len": 2843,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10375836759",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Process Automation (RPA) und Modellierung automatisierter Prozesse mit Zusatzqualifikation Grundlagen des Projektmanagements",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 175,
+          "inhalt_len": 3362,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10376371956",
           "titel": "KI Automationen",
           "anbieter": "velpTEC GmbH",
-          "termine": 192
+          "termine": 192,
+          "titel_len": 15,
+          "inhalt_len": 1035,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 7,
           "angebot_id": "99101953",
           "titel": "KI Automationen: Prozessautomatisierung",
           "anbieter": "velpTEC GmbH",
-          "termine": 192
+          "termine": 192,
+          "titel_len": 39,
+          "inhalt_len": 995,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 8,
           "angebot_id": "10375763487",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Workflow-Automatisierung und -Orchestrierung und Process Automation (RPA) mit Zusatzqualifikation No code Programming mit Flutterflow",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 184,
+          "inhalt_len": 3324,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10375872204",
           "titel": "KI Automation: Prozessmodellierung",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 34,
+          "inhalt_len": 993,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10397945787",
           "titel": "Automation mit KI",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 17,
+          "inhalt_len": 1769,
+          "q_in_titel": 0,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "10391015122",
           "titel": "KI-Tools & Automation im Marketing",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 34,
+          "inhalt_len": 683,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10375900503",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Modellierung automatisierter Prozesse mit Zusatzqualifikation DevOps",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 119,
+          "inhalt_len": 2948,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 13,
           "angebot_id": "10375762195",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Modellierung automatisierter Prozesse mit Zusatzqualifikation Prompt Engineering",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 131,
+          "inhalt_len": 3146,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 14,
           "angebot_id": "10375828045",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Modellierung automatisierter Prozesse mit Zusatzqualifikation Grundlagen des Projektmanagements",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 146,
+          "inhalt_len": 3306,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 15,
           "angebot_id": "10382752204",
           "titel": "KI Automationen",
           "anbieter": "ImpaQt Education Group",
-          "termine": 3
+          "termine": 3,
+          "titel_len": 15,
+          "inhalt_len": 1496,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 16,
           "angebot_id": "10375843078",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Modellierung automatisierter Prozesse mit Zusatzqualifikation Python und No code Programming mit Flutterflow",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 159,
+          "inhalt_len": 2647,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 17,
           "angebot_id": "10365764466",
           "titel": "Accounting Automation Assistant - KI für automatische Kontierung",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 64,
+          "inhalt_len": 2143,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10371631689",
           "titel": "Marketing Automation mit KI",
           "anbieter": "Ironhack Germany GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 27,
+          "inhalt_len": 509,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10388550275",
           "titel": "Marketing Automation mit KI: Performance Marketing, SEA, SEO, Web Analytics und Social Media",
           "anbieter": "CBW College Berufliche Weiterbildung GmbH",
-          "termine": 70
+          "termine": 70,
+          "titel_len": 92,
+          "inhalt_len": 2671,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10390902938",
           "titel": "Arbeitsfit mit KI: Tools, Automation und praktische Anwendungen",
           "anbieter": "Learnix GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 63,
+          "inhalt_len": 1362,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         }
       ]
     },
     "Marketing Automation": {
       "total_results": 520,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10365880670",
           "titel": "Marketing Automation - beruflicher Einstieg",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 43,
+          "inhalt_len": 1729,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10298467542",
           "titel": "Marketing Automation Manager:in",
           "anbieter": "velpTEC GmbH",
-          "termine": 192
+          "termine": 192,
+          "titel_len": 31,
+          "inhalt_len": 3944,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10375799575",
           "titel": "Marketing Automation Specialist:in",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 34,
+          "inhalt_len": 3076,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10365467224",
           "titel": "Marketing Automation - Quereinstieg",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 35,
+          "inhalt_len": 1487,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10391015122",
           "titel": "KI-Tools & Automation im Marketing",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 34,
+          "inhalt_len": 683,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10367851438",
           "titel": "Marketing Automation und CRM-Tools",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 34,
+          "inhalt_len": 3945,
+          "q_in_titel": 1,
+          "q_in_inhalt": 17,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10362683442",
           "titel": "Marketing Automation für Online Growth",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 38,
+          "inhalt_len": 2281,
+          "q_in_titel": 1,
+          "q_in_inhalt": 8,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "10365881209",
           "titel": "Marketing Automation Assistant - Kampagnenmanagement digital",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 60,
+          "inhalt_len": 2055,
+          "q_in_titel": 1,
+          "q_in_inhalt": 6,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10376363717",
           "titel": "Newslettermarketing: Marketing Automation",
           "anbieter": "velpTEC GmbH",
-          "termine": 192
+          "termine": 192,
+          "titel_len": 41,
+          "inhalt_len": 314,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10388711112",
           "titel": "Marketing Automation Manager: KI-gestützte Kampagnenentwicklung",
           "anbieter": "Forward Education GmbH",
-          "termine": 30
+          "termine": 30,
+          "titel_len": 63,
+          "inhalt_len": 1739,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "10366198773",
           "titel": "Content & KI-Automation Assistant - Marketing-Daten analysieren",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 63,
+          "inhalt_len": 1723,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10371631716",
           "titel": "Marketing Automation Tracking",
           "anbieter": "Ironhack Germany GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 29,
+          "inhalt_len": 479,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10385766829",
           "titel": "Marketing Automation",
           "anbieter": "Talentspring Academy Group",
-          "termine": 24
+          "termine": 24,
+          "titel_len": 20,
+          "inhalt_len": 896,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10388712357",
           "titel": "Marketing Automation Manager - Spezialisierung in KI-gestützten Kampagnen",
           "anbieter": "Forward Education GmbH",
-          "termine": 10
+          "termine": 10,
+          "titel_len": 73,
+          "inhalt_len": 1878,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10375887706",
           "titel": "Corporate Marketing Management für Automation",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 45,
+          "inhalt_len": 4651,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10366056022",
           "titel": "Content & KI-Automation Assistant - E-Mail Marketing Tools",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 58,
+          "inhalt_len": 2074,
+          "q_in_titel": 0,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10388713848",
           "titel": "KI-gestützter Marketing Automation Manager: Kampagnenoptimierung mit Google Ads",
           "anbieter": "Forward Education GmbH",
-          "termine": 27
+          "termine": 27,
+          "titel_len": 79,
+          "inhalt_len": 1490,
+          "q_in_titel": 1,
+          "q_in_inhalt": 8,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10384054462",
           "titel": "Content und Performance Automation mit KI im Marketing",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 54,
+          "inhalt_len": 1283,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10371631703",
           "titel": "Marketing Automation mit CRM",
           "anbieter": "Ironhack Germany GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 28,
+          "inhalt_len": 462,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10366055980",
           "titel": "Marketing Automation Assistant - CRM-Systeme Grundlagen",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 55,
+          "inhalt_len": 1504,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         }
       ]
     },
     "E-Commerce Marketing": {
       "total_results": 1827,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10392038712",
           "titel": "E-Business im E-Commerce",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 691
+          "termine": 691,
+          "titel_len": 24,
+          "inhalt_len": 713,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 2,
           "angebot_id": "10368019492",
           "titel": "E-Commerce: Data und E-Commerce",
           "anbieter": "Mentify Learn GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 31,
+          "inhalt_len": 3238,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10393881929",
           "titel": "E-Commerce",
           "anbieter": "GFN GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 10,
+          "inhalt_len": 3671,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 4,
           "angebot_id": "99102204",
           "titel": "E-Commerce Marketing",
           "anbieter": "Akademie Überlingen",
-          "termine": 82
+          "termine": 82,
+          "titel_len": 20,
+          "inhalt_len": 2193,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10127381750",
           "titel": "Marketing im E-Commerce",
           "anbieter": "IAD Informationsverarbeitung und angewandte Datentechnik GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 23,
+          "inhalt_len": 306,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10379469987",
           "titel": "Assistent/-in E-Commerce und E-Business",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 39,
+          "inhalt_len": 1404,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 7,
           "angebot_id": "10392034683",
           "titel": "E-Commerce mit Data",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 690
+          "termine": 690,
+          "titel_len": 19,
+          "inhalt_len": 433,
+          "q_in_titel": 0,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 1
         },
         {
           "position": 8,
           "angebot_id": "10124772851",
           "titel": "Online Marketing & E-Commerce",
           "anbieter": "Wildner Akademie für Digitale Wirtschaft & Management",
-          "termine": 77
+          "termine": 77,
+          "titel_len": 29,
+          "inhalt_len": 1974,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10392149259",
           "titel": "E-Commerce im Digital Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 692
+          "termine": 692,
+          "titel_len": 31,
+          "inhalt_len": 1446,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10309142941",
           "titel": "Digital Marketing und E-Commerce",
           "anbieter": "IU Akademie IU Internationale Hochschule",
-          "termine": 650
+          "termine": 650,
+          "titel_len": 32,
+          "inhalt_len": 2157,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "10387195929",
           "titel": "E-Commerce Marketing Automation",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 31,
+          "inhalt_len": 1736,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10388762482",
           "titel": "E-Commerce und Performance Marketing",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 408
+          "termine": 408,
+          "titel_len": 36,
+          "inhalt_len": 894,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10384660436",
           "titel": "E Commerce Management",
           "anbieter": "Distart Education GmbH",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 21,
+          "inhalt_len": 3206,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 0
         },
         {
           "position": 14,
           "angebot_id": "10387777670",
           "titel": "Marketing Aufbaukurs - E-Commerce",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 33,
+          "inhalt_len": 1995,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10368019475",
           "titel": "E-Commerce Marketing Automation",
           "anbieter": "Mentify Learn GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 31,
+          "inhalt_len": 3109,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10387195562",
           "titel": "E-Commerce im Digital Marketing",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 31,
+          "inhalt_len": 1948,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10389167772",
           "titel": "E-Commerce Marketing Strategie",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 30,
+          "inhalt_len": 2136,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10397480248",
           "titel": "Online-Marketing: E-Commerce und Datenanalyse",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 45,
+          "inhalt_len": 3106,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10365260090",
           "titel": "Online-Marketing: E-Commerce und Datenanalyse",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 62
+          "termine": 62,
+          "titel_len": 45,
+          "inhalt_len": 2756,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10329830788",
           "titel": "Online Branding im E-Commerce Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 362
+          "termine": 362,
+          "titel_len": 39,
+          "inhalt_len": 800,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         }
       ]
     },
     "KI E-Commerce": {
       "total_results": 724,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10397480531",
           "titel": "KI im E-Commerce",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 16,
+          "inhalt_len": 3276,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10387080888",
           "titel": "E-Commerce Strategie mit KI",
           "anbieter": "WBS TRAINING SE",
-          "termine": 528
+          "termine": 528,
+          "titel_len": 27,
+          "inhalt_len": 294,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10397922913",
           "titel": "E-Commerce Strategie mit KI",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 27,
+          "inhalt_len": 1452,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10379524766",
           "titel": "E-Commerce mit KI-Potenzialen",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 29,
+          "inhalt_len": 2077,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10397479194",
           "titel": "E-Commerce Data und KI",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 22,
+          "inhalt_len": 3065,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10396774121",
           "titel": "Weiterbildung im E-Commerce mit KI",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 34,
+          "inhalt_len": 897,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10357000677",
           "titel": "E-Commerce Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 21,
+          "inhalt_len": 1349,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "10397479386",
           "titel": "E-Commerce Marketing mit KI: SEO und Performance",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 48,
+          "inhalt_len": 3353,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10385239286",
           "titel": "KI im Handel / E-Commerce",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 25,
+          "inhalt_len": 2248,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10380316968",
           "titel": "KI-Management im E-Commerce",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 27,
+          "inhalt_len": 4637,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "10397961148",
           "titel": "KI-gestützter E-Commerce im Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 36,
+          "inhalt_len": 1856,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10352801038",
           "titel": "KI-Spezialist/-in für E-Commerce",
           "anbieter": "IHK-Akademie Ostwestfalen GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 32,
+          "inhalt_len": 1366,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10392830333",
           "titel": "KI Manager im E-Commerce Marketing",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 34,
+          "inhalt_len": 1598,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10391165968",
           "titel": "Datengetriebenes E-Commerce Marketing mit KI",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 44,
+          "inhalt_len": 1629,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10379404435",
           "titel": "Suchmaschinenmarketing mit E-Commerce und Intensivkurs KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 57,
+          "inhalt_len": 3736,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10391168455",
           "titel": "E-Commerce Performance Marketing mit KI",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 39,
+          "inhalt_len": 1343,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10397963034",
           "titel": "KI-Manager im E-Commerce und digital Sales",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 42,
+          "inhalt_len": 1961,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10368019619",
           "titel": "Weiterbildung im E-Commerce mit KI",
           "anbieter": "Mentify Learn GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 34,
+          "inhalt_len": 3360,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10373632926",
           "titel": "E-Commerce",
           "anbieter": "alfatraining Bildungszentrum GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 10,
+          "inhalt_len": 776,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 20,
           "angebot_id": "10379708697",
           "titel": "KI Bildgenerierung - E-Commerce und Brand Management",
           "anbieter": "COMCAVE.COLLEGE GmbH",
-          "termine": 472
+          "termine": 472,
+          "titel_len": 52,
+          "inhalt_len": 1766,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         }
       ]
     },
     "B2B Vertrieb": {
       "total_results": 447,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10304269733",
           "titel": "Vertrieb im B2B",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 15,
+          "inhalt_len": 2138,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10353740715",
           "titel": "Vertrieb im B2B",
           "anbieter": "VBZ Deutsches Vertriebsbildungszentrum",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 15,
+          "inhalt_len": 3472,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10383191834",
           "titel": "B2B Vertrieb",
           "anbieter": "ImpaQt Education Group",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 12,
+          "inhalt_len": 1468,
+          "q_in_titel": 1,
+          "q_in_inhalt": 7,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10389259276",
           "titel": "B2B-Vertrieb - Kanalstrategie",
           "anbieter": "Talentspring Academy Group",
-          "termine": 100
+          "termine": 100,
+          "titel_len": 29,
+          "inhalt_len": 1602,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10389258865",
           "titel": "B2B-Sales - Einwandbehandlung",
           "anbieter": "Talentspring Academy Group",
-          "termine": 100
+          "termine": 100,
+          "titel_len": 29,
+          "inhalt_len": 1385,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 6,
           "angebot_id": "10304494595",
           "titel": "Vertriebsmanager im Bereich B2B-Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 40,
+          "inhalt_len": 4384,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10389258782",
           "titel": "B2B-Vertrieb - Outreach-Strategie",
           "anbieter": "Talentspring Academy Group",
-          "termine": 100
+          "termine": 100,
+          "titel_len": 33,
+          "inhalt_len": 1421,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "10345412011",
           "titel": "KI im B2B Vertrieb",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 18,
+          "inhalt_len": 1264,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10397943889",
           "titel": "Agiles Projektmanagement und B2B Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 12
+          "termine": 12,
+          "titel_len": 41,
+          "inhalt_len": 1780,
+          "q_in_titel": 1,
+          "q_in_inhalt": 9,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10395698616",
           "titel": "Gesprächsführung im B2B Sales",
           "anbieter": "Digital Sales School",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 29,
+          "inhalt_len": 975,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 11,
           "angebot_id": "10388714823",
           "titel": "B2B-Vertrieb: Kunden gezielt ansprechen",
           "anbieter": "Forward Education GmbH",
-          "termine": 20
+          "termine": 20,
+          "titel_len": 39,
+          "inhalt_len": 863,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10273856110",
           "titel": "Vertrieb im B2B - inkl. Zeit- und Selbstmanagement",
           "anbieter": "Lecturio GmbH",
-          "termine": 52
+          "termine": 52,
+          "titel_len": 50,
+          "inhalt_len": 969,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10304487974",
           "titel": "Sales Manager mit Spezialisierung auf B2B-Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 50,
+          "inhalt_len": 4129,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10325880941",
           "titel": "Sales Manager: B2B Vertrieb und Verkaufspsychologie",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 51,
+          "inhalt_len": 2835,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10390990893",
           "titel": "Outreach Kompetenzen im B2B-Vertrieb Stärken",
           "anbieter": "ImpaQt Education Group",
-          "termine": 8
+          "termine": 8,
+          "titel_len": 44,
+          "inhalt_len": 1331,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10345412028",
           "titel": "Performance Marketing im B2B Vertrieb",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 37,
+          "inhalt_len": 1092,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10325891622",
           "titel": "Vertriebsanalyse: B2B Sales und Pipeline Management",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 51,
+          "inhalt_len": 2936,
+          "q_in_titel": 0,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 1
         },
         {
           "position": 18,
           "angebot_id": "10390038310",
           "titel": "Vertrauenskauf im IT-B2B-Vertrieb: Vertriebspsychologie nutzen",
           "anbieter": "ImpaQt Education Group",
-          "termine": 8
+          "termine": 8,
+          "titel_len": 62,
+          "inhalt_len": 461,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10325874429",
           "titel": "Grundlagen Digital Sales: B2B- und B2C-Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 47,
+          "inhalt_len": 2810,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10325879359",
           "titel": "B2B Sales und Neukundengewinnung",
           "anbieter": "Bold Academy GmbH",
-          "termine": 61
+          "termine": 61,
+          "titel_len": 32,
+          "inhalt_len": 2916,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         }
       ]
     },
     "KI B2B Vertrieb": {
       "total_results": 88,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10345412011",
           "titel": "KI im B2B Vertrieb",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 18,
+          "inhalt_len": 1264,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 2,
           "angebot_id": "10366091967",
           "titel": "KI im B2B- & B2C-Vertrieb",
           "anbieter": "GrandEdu Media",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 25,
+          "inhalt_len": 2566,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 3,
           "angebot_id": "10325880941",
           "titel": "Sales Manager: B2B Vertrieb und Verkaufspsychologie",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 51,
+          "inhalt_len": 2835,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10380391756",
           "titel": "Digitale Kundeninteraktion und serviceorientierte Vertriebsprozesse im IT-B2B",
           "anbieter": "Talentspring Academy Group",
-          "termine": 48
+          "termine": 48,
+          "titel_len": 77,
+          "inhalt_len": 1335,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 5,
           "angebot_id": "10380374275",
           "titel": "Marketing Automation: Digitale Akquise-Strategien im B2B",
           "anbieter": "Talentspring Academy Group",
-          "termine": 48
+          "termine": 48,
+          "titel_len": 56,
+          "inhalt_len": 738,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 6,
           "angebot_id": "10355424728",
           "titel": "Suchmaschinenmarketing mit Schwerpunkt B2B",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 42,
+          "inhalt_len": 3450,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 7,
           "angebot_id": "10380264881",
           "titel": "B2B-Relationship-Builder (m/w/d)",
           "anbieter": "Habmann AufstiegsAkademie",
-          "termine": 94
+          "termine": 94,
+          "titel_len": 32,
+          "inhalt_len": 3292,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 8,
           "angebot_id": "10370845766",
           "titel": "B2B-Plattformökonom (m/w/d)",
           "anbieter": "Habmann AufstiegsAkademie",
-          "termine": 94
+          "termine": 94,
+          "titel_len": 27,
+          "inhalt_len": 4007,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 9,
           "angebot_id": "10325902069",
           "titel": "Vertriebstechnologien: KI im Vertrieb und Lead Nurturing",
           "anbieter": "Bold Academy GmbH",
-          "termine": 59
+          "termine": 59,
+          "titel_len": 56,
+          "inhalt_len": 2971,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10394956147",
           "titel": "KI Sales Manager",
           "anbieter": "Bold Academy GmbH",
-          "termine": 119
+          "termine": 119,
+          "titel_len": 16,
+          "inhalt_len": 4861,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 11,
           "angebot_id": "10385704138",
           "titel": "Online Marketing Management mit Schwerpunkt B2B",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 47,
+          "inhalt_len": 2307,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 12,
           "angebot_id": "10375040731",
           "titel": "Digitale Kundengewinnung IT-Vertrieb - KI Marketing Automation Outreach Kurs",
           "anbieter": "Talentspring Academy Group",
-          "termine": 100
+          "termine": 100,
+          "titel_len": 76,
+          "inhalt_len": 1606,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10373819416",
           "titel": "Online Vertrieb Leadgenerierung Weiterbildung - Multichannel Kampagnen KI",
           "anbieter": "Talentspring Academy Group",
-          "termine": 100
+          "termine": 100,
+          "titel_len": 73,
+          "inhalt_len": 1492,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10373819576",
           "titel": "IT-Vertrieb Neukunden gewinnen Weiterbildung - Outreach Marketing KI",
           "anbieter": "Talentspring Academy Group",
-          "termine": 100
+          "termine": 100,
+          "titel_len": 68,
+          "inhalt_len": 1498,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10325885760",
           "titel": "Management im Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 59
+          "termine": 59,
+          "titel_len": 22,
+          "inhalt_len": 3623,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 16,
           "angebot_id": "10384054968",
           "titel": "Vertriebsmanagement mit Social Selling und KI",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 45,
+          "inhalt_len": 1237,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 17,
           "angebot_id": "10373819461",
           "titel": "KI Kundengewinnung Kurs - Digital Sales Automation & Kundenansprache",
           "anbieter": "Talentspring Academy Group",
-          "termine": 132
+          "termine": 132,
+          "titel_len": 68,
+          "inhalt_len": 1546,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 18,
           "angebot_id": "10395698618",
           "titel": "Einführung B2B SaaS Sales: Basics für Tech-Sales",
           "anbieter": "Digital Sales School",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 48,
+          "inhalt_len": 2256,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 19,
           "angebot_id": "10325894605",
           "titel": "Prozessoptimierung im Vertrieb",
           "anbieter": "Bold Academy GmbH",
-          "termine": 59
+          "termine": 59,
+          "titel_len": 30,
+          "inhalt_len": 3015,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 20,
           "angebot_id": "10383140851",
           "titel": "Gesprächs- und konversationsbasierte KI- Systeme: Steuerung, Spezialisierung und Anwendung im B2B- Kontext (Professional Practice Level)",
           "anbieter": "GrandEdu Media",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 136,
+          "inhalt_len": 3803,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         }
       ]
     },
     "KI Marketing Manager": {
       "total_results": 1417,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10344970031",
           "titel": "Digital Marketing Manager und KI Manager",
           "anbieter": "Digethic Business School",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 40,
+          "inhalt_len": 4044,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 4
         },
         {
           "position": 2,
           "angebot_id": "10379367152",
           "titel": "SEM Manager mit KI",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 18,
+          "inhalt_len": 1510,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10379400073",
           "titel": "Online Marketing Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 27,
+          "inhalt_len": 4282,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 4,
           "angebot_id": "10352801125",
           "titel": "KI-Online-Marketing-Manager/-in",
           "anbieter": "IHK-Akademie Ostwestfalen GmbH",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 31,
+          "inhalt_len": 2448,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 5,
           "angebot_id": "10379405356",
           "titel": "Suchmaschinen Marketing Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 34,
+          "inhalt_len": 2539,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 6,
           "angebot_id": "10379400224",
           "titel": "Performance Marketing Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 32,
+          "inhalt_len": 3673,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 7,
           "angebot_id": "10391166704",
           "titel": "Datengetriebenes Marketing als KI Manager",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 41,
+          "inhalt_len": 1713,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 8,
           "angebot_id": "10372722266",
           "titel": "SEO Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 14,
+          "inhalt_len": 1601,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10379353999",
           "titel": "KI, Social Media und Digital Marketing Manager",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 46,
+          "inhalt_len": 7945,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 10,
           "angebot_id": "10379400596",
           "titel": "Content Marketing Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 28,
+          "inhalt_len": 1129,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 11,
           "angebot_id": "10344251823",
           "titel": "Digital Marketing und KI Manager",
           "anbieter": "Bildung Next Level GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 32,
+          "inhalt_len": 1316,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 12,
           "angebot_id": "10379355738",
           "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 61,
+          "inhalt_len": 1337,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 13,
           "angebot_id": "10379400099",
           "titel": "Social Media Manager KI",
           "anbieter": "SMD Performance Media",
-          "termine": 50
+          "termine": 50,
+          "titel_len": 23,
+          "inhalt_len": 2202,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10288322227",
           "titel": "KI-Manager:in mit Schwerpunkt Marketing",
           "anbieter": "Distart Education GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 39,
+          "inhalt_len": 2268,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 15,
           "angebot_id": "10397009127",
           "titel": "Digital Marketing Manager: KI, Social Media, SEO und SEA gezielt einsetzen",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 74,
+          "inhalt_len": 1858,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 16,
           "angebot_id": "10397949822",
           "titel": "Vertriebsmarketing für KI-Manager",
           "anbieter": "Bold Academy GmbH",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 33,
+          "inhalt_len": 1835,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10392169953",
           "titel": "KI- und Online Marketing Manager",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 125
+          "termine": 125,
+          "titel_len": 32,
+          "inhalt_len": 1033,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 18,
           "angebot_id": "10225575181",
           "titel": "Content Manager und Grundlagen KI",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 33,
+          "inhalt_len": 4112,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10368380754",
           "titel": "KI- und Online Marketing Manager/in",
           "anbieter": "LVQ Weiterbildung und Beratung GmbH",
-          "termine": 9
+          "termine": 9,
+          "titel_len": 35,
+          "inhalt_len": 2107,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10388321892",
           "titel": "KI Manager - AI Projektmanagement im Marketing",
           "anbieter": "COMCAVE.COLLEGE GmbH",
-          "termine": 472
+          "termine": 472,
+          "titel_len": 46,
+          "inhalt_len": 2354,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         }
       ]
     },
     "KI Manager": {
       "total_results": 6309,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10379699292",
           "titel": "KI Manager",
           "anbieter": "COMCAVE.COLLEGE GmbH",
-          "termine": 472
+          "termine": 472,
+          "titel_len": 10,
+          "inhalt_len": 1399,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10397045617",
           "titel": "KI-Manager",
           "anbieter": "New Horizons Hamburg / Bremen",
-          "termine": 68
+          "termine": 68,
+          "titel_len": 10,
+          "inhalt_len": 638,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10397500989",
           "titel": "KI Manager",
           "anbieter": "Syntax GmbH für Aus- und Weiterbildung",
-          "termine": 120
+          "termine": 120,
+          "titel_len": 10,
+          "inhalt_len": 1482,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10351364842",
           "titel": "KI-Manager:in",
           "anbieter": "Bildungswerk der Hessischen Wirtschaft e. V.",
-          "termine": 27
+          "termine": 27,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10396008764",
           "titel": "KI-Manager",
           "anbieter": "NH Schulungscenter für IT und Business GmbH",
-          "termine": 26
+          "termine": 26,
+          "titel_len": 10,
+          "inhalt_len": 638,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10372522613",
           "titel": "KI-Manager",
           "anbieter": "Skilldrops GmbH",
-          "termine": 169
+          "termine": 169,
+          "titel_len": 10,
+          "inhalt_len": 5644,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10366005606",
           "titel": "KI Manager",
           "anbieter": "Smart Future Campus GmbH",
-          "termine": 64
+          "termine": 64,
+          "titel_len": 10,
+          "inhalt_len": 1237,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "99102113",
           "titel": "KI-Manager",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 408
+          "termine": 408,
+          "titel_len": 10,
+          "inhalt_len": 810,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10353050151",
           "titel": "KI-Manager:in",
           "anbieter": "Lernstudio Barbarossa/MegaKids Fortbildungs GmbH",
-          "termine": 144
+          "termine": 144,
+          "titel_len": 13,
+          "inhalt_len": 1107,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10353561324",
           "titel": "KI-Manager:in",
           "anbieter": "GfM GmbH & Co. KG",
-          "termine": 6
+          "termine": 6,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "99102477",
           "titel": "KI-Manager:in",
           "anbieter": "Akademie für berufliche Aus- und Weiterbildung Schweiger & Schmitt GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 13,
+          "inhalt_len": 1107,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10302999129",
           "titel": "KI-Manager:in",
           "anbieter": "Pangea Bildungszentrum - Bildung und Vielfalt Ludwigsburg e. V.",
-          "termine": 1
+          "termine": 1,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10391028224",
           "titel": "KI-Manager:in",
           "anbieter": "StackFuel GmbH",
-          "termine": 86
+          "termine": 86,
+          "titel_len": 13,
+          "inhalt_len": 1117,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10351214956",
           "titel": "KI-Manager:in",
           "anbieter": "Reha & Beruf gGmbH",
-          "termine": 6
+          "termine": 6,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10380654317",
           "titel": "KI-Manager:in",
           "anbieter": "Berger Bildungsinstitut GmbH",
-          "termine": 138
+          "termine": 138,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10396796648",
           "titel": "KI-Manager:in",
           "anbieter": "Fortbildungsakademie der Wirtschaft (FAW) gGmbH",
-          "termine": 142
+          "termine": 142,
+          "titel_len": 13,
+          "inhalt_len": 1107,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10395163094",
           "titel": "KI-Manager",
           "anbieter": "GFN GmbH",
-          "termine": 407
+          "termine": 407,
+          "titel_len": 10,
+          "inhalt_len": 3407,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10382378202",
           "titel": "KI-Manager",
           "anbieter": "Education partners GmbH",
-          "termine": 72
+          "termine": 72,
+          "titel_len": 10,
+          "inhalt_len": 1687,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10351196791",
           "titel": "KI-Manager:in",
           "anbieter": "Randstad Deutschland GmbH & Co. KG",
-          "termine": 6
+          "termine": 6,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10351327983",
           "titel": "KI-Manager:in",
           "anbieter": "Bildungsinsel GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 13,
+          "inhalt_len": 1050,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         }
       ]
     },
     "KI": {
       "total_results": 10000,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10396106249",
           "titel": "KI-Manager mit Projekt",
           "anbieter": "TÜV Rheinland Akademie GmbH I",
-          "termine": 92
+          "termine": 92,
+          "titel_len": 22,
+          "inhalt_len": 1746,
+          "q_in_titel": 1,
+          "q_in_inhalt": 20,
+          "q_words_in_titel": 1
         },
         {
           "position": 2,
           "angebot_id": "10385809892",
           "titel": "KI Integrationsmanager/in (IHK)",
           "anbieter": "Smart Future Campus GmbH",
-          "termine": 128
+          "termine": 128,
+          "titel_len": 31,
+          "inhalt_len": 626,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 1
         },
         {
           "position": 3,
           "angebot_id": "10392602054",
           "titel": "KI Tools - IT-Anwendungsberatung - Modul 1",
           "anbieter": "TERTIA Berufsförderung GmbH & Co. KG",
-          "termine": 628
+          "termine": 628,
+          "titel_len": 42,
+          "inhalt_len": 647,
+          "q_in_titel": 1,
+          "q_in_inhalt": 7,
+          "q_words_in_titel": 1
         },
         {
           "position": 4,
           "angebot_id": "10393645870",
           "titel": "Projektmanagement mit KI, OKR und generativer KI: Grundlagen, Anwendung und Umsetzung",
           "anbieter": "A-Leecon GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 85,
+          "inhalt_len": 3362,
+          "q_in_titel": 2,
+          "q_in_inhalt": 18,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10384704489",
           "titel": "KI-Anwendungsentwickler:in - KI-Prototyping",
           "anbieter": "DCI Digital Career Institute GmbH",
-          "termine": 84
+          "termine": 84,
+          "titel_len": 43,
+          "inhalt_len": 1330,
+          "q_in_titel": 2,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10396971322",
           "titel": "Anwendung von künstlicher Intelligenz im Unternehmenskontext",
           "anbieter": "mycareernow",
-          "termine": 58
+          "termine": 58,
+          "titel_len": 60,
+          "inhalt_len": 6897,
+          "q_in_titel": 0,
+          "q_in_inhalt": 9,
+          "q_words_in_titel": 0
         },
         {
           "position": 7,
           "angebot_id": "10332225137",
           "titel": "KI-Manager (inkl. Projekt) (m/w/d)",
           "anbieter": "DBE Academy GmbH",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 34,
+          "inhalt_len": 819,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 1
         },
         {
           "position": 8,
           "angebot_id": "10386302013",
           "titel": "KI-Projektmanager:in - Dokumentations-KI",
           "anbieter": "Talentspring Academy Group",
-          "termine": 24
+          "termine": 24,
+          "titel_len": 40,
+          "inhalt_len": 917,
+          "q_in_titel": 2,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10373690813",
           "titel": "Künstliche Intelligenz: KI-Berater:in - KI-Beauftragte:r und KI-Manager:in",
           "anbieter": "alfatraining Bildungszentrum GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 74,
+          "inhalt_len": 3359,
+          "q_in_titel": 3,
+          "q_in_inhalt": 18,
+          "q_words_in_titel": 3
         },
         {
           "position": 10,
           "angebot_id": "10393781522",
           "titel": "Projektmanagement mit KI: Automatisierung, Tools und digitale Workflows",
           "anbieter": "A-Leecon GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 71,
+          "inhalt_len": 2716,
+          "q_in_titel": 1,
+          "q_in_inhalt": 22,
+          "q_words_in_titel": 1
         },
         {
           "position": 11,
           "angebot_id": "10366453926",
           "titel": "KI Schulung nach EU KI Verordnung",
           "anbieter": "Berger Bildungsinstitut GmbH",
-          "termine": 278
+          "termine": 278,
+          "titel_len": 33,
+          "inhalt_len": 2065,
+          "q_in_titel": 2,
+          "q_in_inhalt": 11,
+          "q_words_in_titel": 2
         },
         {
           "position": 12,
           "angebot_id": "10393691451",
           "titel": "Projektmanagement mit KI: Anwendung, rechtliche Rahmenbedingungen und visuelle Prozesssteuerung",
           "anbieter": "A-Leecon GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 95,
+          "inhalt_len": 3085,
+          "q_in_titel": 1,
+          "q_in_inhalt": 19,
+          "q_words_in_titel": 1
         },
         {
           "position": 13,
           "angebot_id": "10389250850",
           "titel": "KI-Governance und sichere KI-Implementierung",
           "anbieter": "A-Leecon GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 44,
+          "inhalt_len": 3423,
+          "q_in_titel": 2,
+          "q_in_inhalt": 11,
+          "q_words_in_titel": 2
         },
         {
           "position": 14,
           "angebot_id": "10376957082",
           "titel": "Digital Automations mit KI: Prozessoptimierung für Workflow-",
           "anbieter": "velpTEC GmbH",
-          "termine": 96
+          "termine": 96,
+          "titel_len": 60,
+          "inhalt_len": 2562,
+          "q_in_titel": 1,
+          "q_in_inhalt": 7,
+          "q_words_in_titel": 1
         },
         {
           "position": 15,
           "angebot_id": "10365266307",
           "titel": "Suchmaschinenmarketing mit KI: Content und Suchmaschinenoptimierung",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 62
+          "termine": 62,
+          "titel_len": 67,
+          "inhalt_len": 2715,
+          "q_in_titel": 1,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 1
         },
         {
           "position": 16,
           "angebot_id": "10396887512",
           "titel": "Büroorganisation mit KI: Büromanagement digital gestalten und optimieren",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 72,
+          "inhalt_len": 1603,
+          "q_in_titel": 1,
+          "q_in_inhalt": 8,
+          "q_words_in_titel": 1
         },
         {
           "position": 17,
           "angebot_id": "10393875407",
           "titel": "KI-Manager:in - Klassifizierung von KI-Modellen",
           "anbieter": "WBS TRAINING SE",
-          "termine": 528
+          "termine": 528,
+          "titel_len": 47,
+          "inhalt_len": 269,
+          "q_in_titel": 2,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 18,
           "angebot_id": "10396889629",
           "titel": "Automatisierung mit KI: Prozesse und Workflows intelligent gestalten",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 68,
+          "inhalt_len": 1553,
+          "q_in_titel": 1,
+          "q_in_inhalt": 9,
+          "q_words_in_titel": 1
         },
         {
           "position": 19,
           "angebot_id": "10389255096",
           "titel": "KI-gestützte Marketingstrategien und KI-Governance",
           "anbieter": "A-Leecon GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 50,
+          "inhalt_len": 2675,
+          "q_in_titel": 2,
+          "q_in_inhalt": 41,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10396885737",
           "titel": "Büromanagement mit KI: Kommunikation und Kundenorientierung digital gestalten",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 77,
+          "inhalt_len": 1551,
+          "q_in_titel": 1,
+          "q_in_inhalt": 7,
+          "q_words_in_titel": 1
         }
       ]
     },
     "Marketing": {
       "total_results": 10000,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10377316680",
           "titel": "Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 9,
+          "inhalt_len": 514,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 2,
           "angebot_id": "10393419914",
           "titel": "Marketing",
           "anbieter": "Talentspring Academy Group",
-          "termine": 850
+          "termine": 850,
+          "titel_len": 9,
+          "inhalt_len": 2179,
+          "q_in_titel": 1,
+          "q_in_inhalt": 13,
+          "q_words_in_titel": 1
         },
         {
           "position": 3,
           "angebot_id": "10351108000",
           "titel": "Marketing",
           "anbieter": "Wirtschaftsakademie Küster GmbH",
-          "termine": 10
+          "termine": 10,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 4,
           "angebot_id": "10375886182",
           "titel": "Marketing",
           "anbieter": "velpTEC GmbH",
-          "termine": 192
+          "termine": 192,
+          "titel_len": 9,
+          "inhalt_len": 1223,
+          "q_in_titel": 1,
+          "q_in_inhalt": 12,
+          "q_words_in_titel": 1
         },
         {
           "position": 5,
           "angebot_id": "10396976472",
           "titel": "Marketing",
           "anbieter": "TERTIA Berufsförderung GmbH & Co. KG",
-          "termine": 90
+          "termine": 90,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 6,
           "angebot_id": "10397071871",
           "titel": "Marketing",
           "anbieter": "Berufliche Fortbildungszentren der Bayerischen Wirtschaft (bfz) gGmbH",
-          "termine": 87
+          "termine": 87,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 7,
           "angebot_id": "10353055260",
           "titel": "Marketing",
           "anbieter": "Lernstudio Barbarossa/MegaKids Fortbildungs GmbH",
-          "termine": 144
+          "termine": 144,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 8,
           "angebot_id": "10395435299",
           "titel": "Marketing",
           "anbieter": "IBB Institut für Berufliche Bildung AG",
-          "termine": 440
+          "termine": 440,
+          "titel_len": 9,
+          "inhalt_len": 474,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 1
         },
         {
           "position": 9,
           "angebot_id": "10379463711",
           "titel": "Marketing",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 408
+          "termine": 408,
+          "titel_len": 9,
+          "inhalt_len": 746,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 10,
           "angebot_id": "10392546279",
           "titel": "Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 691
+          "termine": 691,
+          "titel_len": 9,
+          "inhalt_len": 644,
+          "q_in_titel": 1,
+          "q_in_inhalt": 12,
+          "q_words_in_titel": 1
         },
         {
           "position": 11,
           "angebot_id": "10351632351",
           "titel": "Marketing",
           "anbieter": "TEMP.Akademie GmbH",
-          "termine": 4
+          "termine": 4,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 12,
           "angebot_id": "10351365320",
           "titel": "Marketing",
           "anbieter": "Bildungswerk der Hessischen Wirtschaft e. V.",
-          "termine": 27
+          "termine": 27,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 13,
           "angebot_id": "10330703630",
           "titel": "Marketing",
           "anbieter": "its digital akademie GmbH",
-          "termine": 26
+          "termine": 26,
+          "titel_len": 9,
+          "inhalt_len": 1075,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 1
         },
         {
           "position": 14,
           "angebot_id": "10392554740",
           "titel": "Performance Marketing und KPI Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 692
+          "termine": 692,
+          "titel_len": 39,
+          "inhalt_len": 625,
+          "q_in_titel": 2,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10395223445",
           "titel": "Online-Marketing - E-Marketing",
           "anbieter": "GFN GmbH",
-          "termine": 407
+          "termine": 407,
+          "titel_len": 30,
+          "inhalt_len": 1721,
+          "q_in_titel": 2,
+          "q_in_inhalt": 14,
+          "q_words_in_titel": 2
         },
         {
           "position": 16,
           "angebot_id": "10388682533",
           "titel": "Performance Marketing und KPI Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 39,
+          "inhalt_len": 2988,
+          "q_in_titel": 2,
+          "q_in_inhalt": 11,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10351626608",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "MAS Sprachschule München",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 3,
+          "q_in_inhalt": 10,
+          "q_words_in_titel": 3
         },
         {
           "position": 18,
           "angebot_id": "10379205898",
           "titel": "Marketing Aufbaukurs Online Marketing / Social Media Marketing",
           "anbieter": "DAA - Deutsche Angestellten- Akademie gGmbH",
-          "termine": 92
+          "termine": 92,
+          "titel_len": 62,
+          "inhalt_len": 109,
+          "q_in_titel": 3,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 3
         },
         {
           "position": 19,
           "angebot_id": "10351633206",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Zukunftswerkstatt Mitteldeutschland",
-          "termine": 10
+          "termine": 10,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 3,
+          "q_in_inhalt": 10,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10396907992",
           "titel": "Marketing Aufbaukurs - Online-Marketing / Social-Media-Marketing",
           "anbieter": "Fortbildungsakademie der Wirtschaft (FAW) gGmbH",
-          "termine": 142
+          "termine": 142,
+          "titel_len": 64,
+          "inhalt_len": 877,
+          "q_in_titel": 3,
+          "q_in_inhalt": 10,
+          "q_words_in_titel": 3
         }
       ]
     },
     "KI Marketing": {
       "total_results": 4515,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10393229094",
           "titel": "KI im Marketing",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 408
+          "termine": 408,
+          "titel_len": 15,
+          "inhalt_len": 1016,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 2,
           "angebot_id": "10393425794",
           "titel": "Marketing & KI",
           "anbieter": "Talentspring Academy Group",
-          "termine": 850
+          "termine": 850,
+          "titel_len": 14,
+          "inhalt_len": 1474,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10376399533",
           "titel": "KI im Marketing",
           "anbieter": "Berger Bildungsinstitut GmbH",
-          "termine": 138
+          "termine": 138,
+          "titel_len": 15,
+          "inhalt_len": 950,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 4,
           "angebot_id": "10395380453",
           "titel": "KI im Marketing",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 247
+          "termine": 247,
+          "titel_len": 15,
+          "inhalt_len": 1333,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 5,
           "angebot_id": "10379457786",
           "titel": "Marketing KI",
           "anbieter": "Karriere Tutor GmbH",
-          "termine": 204
+          "termine": 204,
+          "titel_len": 12,
+          "inhalt_len": 1486,
+          "q_in_titel": 0,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 6,
           "angebot_id": "10397479386",
           "titel": "E-Commerce Marketing mit KI: SEO und Performance",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 48,
+          "inhalt_len": 3353,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 7,
           "angebot_id": "10355432149",
           "titel": "Digitales Marketing und KI: erfolgreiche Marketingstrategien entwickeln",
           "anbieter": "cimdata Bildungsakademie GmbH",
-          "termine": 22
+          "termine": 22,
+          "titel_len": 71,
+          "inhalt_len": 787,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 8,
           "angebot_id": "10380003644",
           "titel": "Marketing mit KI, Projektmanagement und MS Office",
           "anbieter": "Masters of Digital GmbH",
-          "termine": 124
+          "termine": 124,
+          "titel_len": 49,
+          "inhalt_len": 2084,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 9,
           "angebot_id": "10339679651",
           "titel": "KI im Marketing",
           "anbieter": "neuefische GmbH",
-          "termine": 108
+          "termine": 108,
+          "titel_len": 15,
+          "inhalt_len": 1641,
+          "q_in_titel": 0,
+          "q_in_inhalt": 5,
+          "q_words_in_titel": 2
         },
         {
           "position": 10,
           "angebot_id": "10386302013",
           "titel": "KI-Projektmanager:in - Dokumentations-KI",
           "anbieter": "Talentspring Academy Group",
-          "termine": 24
+          "termine": 24,
+          "titel_len": 40,
+          "inhalt_len": 917,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 11,
           "angebot_id": "10397004663",
           "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für Marketing-Fachkräfte",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 76,
+          "inhalt_len": 1859,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 12,
           "angebot_id": "10397004113",
           "titel": "Digital Marketing Management mit KI, SEO, SEA und agilen Methoden",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 65,
+          "inhalt_len": 1973,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 13,
           "angebot_id": "10397009554",
           "titel": "Digital Marketing und KI: Prozessdigitalisierung mit Zusatzqualifikation Marketing Management",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 93,
+          "inhalt_len": 1806,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 14,
           "angebot_id": "10397008466",
           "titel": "Digital Marketing Management mit KI, SEO, SEA und Qualitätsmanagement",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 69,
+          "inhalt_len": 1940,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 15,
           "angebot_id": "10393433782",
           "titel": "KI Berater",
           "anbieter": "Talentspring Academy Group",
-          "termine": 850
+          "termine": 850,
+          "titel_len": 10,
+          "inhalt_len": 1541,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 16,
           "angebot_id": "10397008715",
           "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für B2B-Unternehmen",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 71,
+          "inhalt_len": 1954,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 17,
           "angebot_id": "10393452067",
           "titel": "Generative KI",
           "anbieter": "Talentspring Academy Group",
-          "termine": 850
+          "termine": 850,
+          "titel_len": 13,
+          "inhalt_len": 1452,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
         },
         {
           "position": 18,
           "angebot_id": "10397015498",
           "titel": "Digital Marketing: KI, Social Media, SEO und SEA für die digitale Unternehmensstrategie",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 87,
+          "inhalt_len": 1606,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10379355738",
           "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
           "anbieter": "GrandEdu GmbH",
-          "termine": 218
+          "termine": 218,
+          "titel_len": 61,
+          "inhalt_len": 1337,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         },
         {
           "position": 20,
           "angebot_id": "10397009127",
           "titel": "Digital Marketing Manager: KI, Social Media, SEO und SEA gezielt einsetzen",
           "anbieter": "mycareernow",
-          "termine": 54
+          "termine": 54,
+          "titel_len": 74,
+          "inhalt_len": 1858,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         }
       ]
     },
     "Digital Marketing": {
       "total_results": 7459,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
       "results": [
         {
           "position": 1,
           "angebot_id": "10366384805",
           "titel": "Digitales Marketing - Experte Digital Marketing",
           "anbieter": "Berger Bildungsinstitut GmbH",
-          "termine": 276
+          "termine": 276,
+          "titel_len": 47,
+          "inhalt_len": 1337,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 3
         },
         {
           "position": 2,
           "angebot_id": "10392147814",
           "titel": "Digitale Transformation im Digital Marketing",
           "anbieter": "Learning Digital Academy GmbH",
-          "termine": 690
+          "termine": 690,
+          "titel_len": 44,
+          "inhalt_len": 827,
+          "q_in_titel": 1,
+          "q_in_inhalt": 4,
+          "q_words_in_titel": 2
         },
         {
           "position": 3,
           "angebot_id": "10380605499",
           "titel": "Content Marketing Manager:in mit Digital Marketing",
           "anbieter": "alfatraining Bildungszentrum GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 50,
+          "inhalt_len": 2949,
+          "q_in_titel": 1,
+          "q_in_inhalt": 3,
+          "q_words_in_titel": 3
         },
         {
           "position": 4,
           "angebot_id": "10380737860",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Berger Bildungsinstitut GmbH",
-          "termine": 138
+          "termine": 138,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 5,
           "angebot_id": "10395183084",
           "titel": "Marketing und Projekt Manager im Digital Marketing",
           "anbieter": "GFN GmbH",
-          "termine": 407
+          "termine": 407,
+          "titel_len": 50,
+          "inhalt_len": 5621,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 3
         },
         {
           "position": 6,
           "angebot_id": "10351306109",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "bam GmbH",
-          "termine": 7
+          "termine": 7,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 7,
           "angebot_id": "10369578503",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Lernstudio Barbarossa/MegaKids Fortbildungs GmbH",
-          "termine": 144
+          "termine": 144,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 8,
           "angebot_id": "10351107051",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Kolping Akademie Bamberg",
-          "termine": 8
+          "termine": 8,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 9,
           "angebot_id": "10368644972",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Fortbildungsakademie der Wirtschaft (FAW) gGmbH",
-          "termine": 138
+          "termine": 138,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 10,
           "angebot_id": "10388684264",
           "titel": "Marketing- und Projekt-Manager im Digital Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 51,
+          "inhalt_len": 3134,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 3
         },
         {
           "position": 11,
           "angebot_id": "10351392275",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Berufliche Fortbildungszentren der Bayerischen Wirtschaft (bfz) gGmbH",
-          "termine": 87
+          "termine": 87,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 12,
           "angebot_id": "10388684280",
           "titel": "Content Marketing Manager:in mit Digital Marketing",
           "anbieter": "OneCareer",
-          "termine": 102
+          "termine": 102,
+          "titel_len": 50,
+          "inhalt_len": 3146,
+          "q_in_titel": 1,
+          "q_in_inhalt": 2,
+          "q_words_in_titel": 3
         },
         {
           "position": 13,
           "angebot_id": "10396830280",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "TÜV Rheinland Akademie GmbH",
-          "termine": 37
+          "termine": 37,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 14,
           "angebot_id": "10353577775",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "GfM GmbH & Co. KG",
-          "termine": 6
+          "termine": 6,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 15,
           "angebot_id": "10352318731",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Lernen fördern e. V.",
-          "termine": 2
+          "termine": 2,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 16,
           "angebot_id": "10351204026",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Randstad Deutschland GmbH & Co. KG",
-          "termine": 6
+          "termine": 6,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 17,
           "angebot_id": "10370064841",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "TERTIA Berufsförderung GmbH & Co. KG",
-          "termine": 90
+          "termine": 90,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 18,
           "angebot_id": "10373612949",
           "titel": "Digital Marketing",
           "anbieter": "alfatraining Bildungszentrum GmbH",
-          "termine": 409
+          "termine": 409,
+          "titel_len": 17,
+          "inhalt_len": 725,
+          "q_in_titel": 1,
+          "q_in_inhalt": 1,
+          "q_words_in_titel": 2
         },
         {
           "position": 19,
           "angebot_id": "10351090454",
           "titel": "Masterclass: Marketing - Digital Marketing - Starter",
           "anbieter": "Stiftung Lernen-Fördern-Arbeiten (LFA)",
-          "termine": 7
+          "termine": 7,
+          "titel_len": 52,
+          "inhalt_len": 1198,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
         },
         {
           "position": 20,
           "angebot_id": "10392830982",
           "titel": "Digitales Marketing",
           "anbieter": "ecomex GmbH & Co. KG",
-          "termine": 250
+          "termine": 250,
+          "titel_len": 19,
+          "inhalt_len": 1912,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
+        }
+      ]
+    },
+    "Marketing KI": {
+      "total_results": 4515,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
+      "results": [
+        {
+          "position": 1,
+          "angebot_id": "10393229094",
+          "titel": "KI im Marketing",
+          "anbieter": "Karriere Tutor GmbH",
+          "termine": 408,
+          "titel_len": 15,
+          "inhalt_len": 1016,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 2,
+          "angebot_id": "10393425794",
+          "titel": "Marketing & KI",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 850,
+          "titel_len": 14,
+          "inhalt_len": 1474,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 3,
+          "angebot_id": "10376399533",
+          "titel": "KI im Marketing",
+          "anbieter": "Berger Bildungsinstitut GmbH",
+          "termine": 138,
+          "titel_len": 15,
+          "inhalt_len": 950,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 4,
+          "angebot_id": "10395380453",
+          "titel": "KI im Marketing",
+          "anbieter": "Masters of Digital GmbH",
+          "termine": 247,
+          "titel_len": 15,
+          "inhalt_len": 1333,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 5,
+          "angebot_id": "10379457786",
+          "titel": "Marketing KI",
+          "anbieter": "Karriere Tutor GmbH",
+          "termine": 204,
+          "titel_len": 12,
+          "inhalt_len": 1486,
+          "q_in_titel": 1,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 6,
+          "angebot_id": "10397479386",
+          "titel": "E-Commerce Marketing mit KI: SEO und Performance",
+          "anbieter": "OneCareer",
+          "termine": 102,
+          "titel_len": 48,
+          "inhalt_len": 3353,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 7,
+          "angebot_id": "10355432149",
+          "titel": "Digitales Marketing und KI: erfolgreiche Marketingstrategien entwickeln",
+          "anbieter": "cimdata Bildungsakademie GmbH",
+          "termine": 22,
+          "titel_len": 71,
+          "inhalt_len": 787,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 8,
+          "angebot_id": "10380003644",
+          "titel": "Marketing mit KI, Projektmanagement und MS Office",
+          "anbieter": "Masters of Digital GmbH",
+          "termine": 124,
+          "titel_len": 49,
+          "inhalt_len": 2084,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 9,
+          "angebot_id": "10339679651",
+          "titel": "KI im Marketing",
+          "anbieter": "neuefische GmbH",
+          "termine": 108,
+          "titel_len": 15,
+          "inhalt_len": 1641,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 10,
+          "angebot_id": "10386302013",
+          "titel": "KI-Projektmanager:in - Dokumentations-KI",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 24,
+          "titel_len": 40,
+          "inhalt_len": 917,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 11,
+          "angebot_id": "10397004663",
+          "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für Marketing-Fachkräfte",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 76,
+          "inhalt_len": 1859,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
+        },
+        {
+          "position": 12,
+          "angebot_id": "10397004113",
+          "titel": "Digital Marketing Management mit KI, SEO, SEA und agilen Methoden",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 65,
+          "inhalt_len": 1973,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 13,
+          "angebot_id": "10397009554",
+          "titel": "Digital Marketing und KI: Prozessdigitalisierung mit Zusatzqualifikation Marketing Management",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 93,
+          "inhalt_len": 1806,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
+        },
+        {
+          "position": 14,
+          "angebot_id": "10397008466",
+          "titel": "Digital Marketing Management mit KI, SEO, SEA und Qualitätsmanagement",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 69,
+          "inhalt_len": 1940,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 15,
+          "angebot_id": "10393433782",
+          "titel": "KI Berater",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 850,
+          "titel_len": 10,
+          "inhalt_len": 1541,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
+        },
+        {
+          "position": 16,
+          "angebot_id": "10397008715",
+          "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für B2B-Unternehmen",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 71,
+          "inhalt_len": 1954,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 17,
+          "angebot_id": "10393452067",
+          "titel": "Generative KI",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 850,
+          "titel_len": 13,
+          "inhalt_len": 1452,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
+        },
+        {
+          "position": 18,
+          "angebot_id": "10397015498",
+          "titel": "Digital Marketing: KI, Social Media, SEO und SEA für die digitale Unternehmensstrategie",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 87,
+          "inhalt_len": 1606,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 19,
+          "angebot_id": "10379355738",
+          "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
+          "anbieter": "GrandEdu GmbH",
+          "termine": 218,
+          "titel_len": 61,
+          "inhalt_len": 1337,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 20,
+          "angebot_id": "10397009127",
+          "titel": "Digital Marketing Manager: KI, Social Media, SEO und SEA gezielt einsetzen",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 74,
+          "inhalt_len": 1858,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        }
+      ]
+    },
+    "(KI) Marketing": {
+      "total_results": 4515,
+      "removed_token": "",
+      "korrektur_vorschlag": "",
+      "results": [
+        {
+          "position": 1,
+          "angebot_id": "10393229094",
+          "titel": "KI im Marketing",
+          "anbieter": "Karriere Tutor GmbH",
+          "termine": 408,
+          "titel_len": 15,
+          "inhalt_len": 1016,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 2,
+          "angebot_id": "10393425794",
+          "titel": "Marketing & KI",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 850,
+          "titel_len": 14,
+          "inhalt_len": 1474,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 3,
+          "angebot_id": "10376399533",
+          "titel": "KI im Marketing",
+          "anbieter": "Berger Bildungsinstitut GmbH",
+          "termine": 138,
+          "titel_len": 15,
+          "inhalt_len": 950,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 4,
+          "angebot_id": "10395380453",
+          "titel": "KI im Marketing",
+          "anbieter": "Masters of Digital GmbH",
+          "termine": 247,
+          "titel_len": 15,
+          "inhalt_len": 1333,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 5,
+          "angebot_id": "10379457786",
+          "titel": "Marketing KI",
+          "anbieter": "Karriere Tutor GmbH",
+          "termine": 204,
+          "titel_len": 12,
+          "inhalt_len": 1486,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 6,
+          "angebot_id": "10397479386",
+          "titel": "E-Commerce Marketing mit KI: SEO und Performance",
+          "anbieter": "OneCareer",
+          "termine": 102,
+          "titel_len": 48,
+          "inhalt_len": 3353,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 7,
+          "angebot_id": "10355432149",
+          "titel": "Digitales Marketing und KI: erfolgreiche Marketingstrategien entwickeln",
+          "anbieter": "cimdata Bildungsakademie GmbH",
+          "termine": 22,
+          "titel_len": 71,
+          "inhalt_len": 787,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 8,
+          "angebot_id": "10380003644",
+          "titel": "Marketing mit KI, Projektmanagement und MS Office",
+          "anbieter": "Masters of Digital GmbH",
+          "termine": 124,
+          "titel_len": 49,
+          "inhalt_len": 2084,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 9,
+          "angebot_id": "10339679651",
+          "titel": "KI im Marketing",
+          "anbieter": "neuefische GmbH",
+          "termine": 108,
+          "titel_len": 15,
+          "inhalt_len": 1641,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 10,
+          "angebot_id": "10386302013",
+          "titel": "KI-Projektmanager:in - Dokumentations-KI",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 24,
+          "titel_len": 40,
+          "inhalt_len": 917,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 11,
+          "angebot_id": "10397004663",
+          "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für Marketing-Fachkräfte",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 76,
+          "inhalt_len": 1859,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
+        },
+        {
+          "position": 12,
+          "angebot_id": "10397004113",
+          "titel": "Digital Marketing Management mit KI, SEO, SEA und agilen Methoden",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 65,
+          "inhalt_len": 1973,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 13,
+          "angebot_id": "10397009554",
+          "titel": "Digital Marketing und KI: Prozessdigitalisierung mit Zusatzqualifikation Marketing Management",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 93,
+          "inhalt_len": 1806,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 3
+        },
+        {
+          "position": 14,
+          "angebot_id": "10397008466",
+          "titel": "Digital Marketing Management mit KI, SEO, SEA und Qualitätsmanagement",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 69,
+          "inhalt_len": 1940,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 15,
+          "angebot_id": "10393433782",
+          "titel": "KI Berater",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 850,
+          "titel_len": 10,
+          "inhalt_len": 1541,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
+        },
+        {
+          "position": 16,
+          "angebot_id": "10397008715",
+          "titel": "Digital Marketing mit KI: SEO, SEA und Social Media für B2B-Unternehmen",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 71,
+          "inhalt_len": 1954,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 17,
+          "angebot_id": "10393452067",
+          "titel": "Generative KI",
+          "anbieter": "Talentspring Academy Group",
+          "termine": 850,
+          "titel_len": 13,
+          "inhalt_len": 1452,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 1
+        },
+        {
+          "position": 18,
+          "angebot_id": "10397015498",
+          "titel": "Digital Marketing: KI, Social Media, SEO und SEA für die digitale Unternehmensstrategie",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 87,
+          "inhalt_len": 1606,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 19,
+          "angebot_id": "10379355738",
+          "titel": "Social Media Marketing mit KI: Content Manager und Multimedia",
+          "anbieter": "GrandEdu GmbH",
+          "termine": 218,
+          "titel_len": 61,
+          "inhalt_len": 1337,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
+        },
+        {
+          "position": 20,
+          "angebot_id": "10397009127",
+          "titel": "Digital Marketing Manager: KI, Social Media, SEO und SEA gezielt einsetzen",
+          "anbieter": "mycareernow",
+          "termine": 54,
+          "titel_len": 74,
+          "inhalt_len": 1858,
+          "q_in_titel": 0,
+          "q_in_inhalt": 0,
+          "q_words_in_titel": 2
         }
       ]
     }
