@@ -25,6 +25,11 @@
   .down { color: #c93636; }
   .new  { color: #5a3eb8; font-weight: 600; }
   .anb  { color: var(--pico-muted-color); font-size: 0.85rem; }
+  .ok   { color: #1a7f37; font-weight: 600; }
+  .fail { color: #c93636; font-weight: 600; }
+  .dim  { color: var(--pico-muted-color); }
+  .thesis-group { margin-top: 0.7rem; font-weight: 600; }
+  .thesis-item  { padding-left: 1.3rem; }
 </style>
 </head>
 <body>
@@ -35,6 +40,11 @@
 <section class="alerts" id="alerts" hidden>
   <h2>Auffälligkeiten</h2>
   <div id="alerts-body"></div>
+</section>
+
+<section class="alerts" id="theses" hidden>
+  <h2>Thesen-Belege</h2>
+  <div id="theses-body"></div>
 </section>
 
 <section id="lists"></section>
@@ -153,11 +163,125 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+// --- Thesen-Belege ---------------------------------------------------------
+function avg(arr) { return arr.length ? arr.reduce((a,b)=>a+b,0) / arr.length : 0; }
+
+function computeTheses(today) {
+  const q = today.queries;
+  const out = {};
+
+  // T6 — Wortreihenfolge irrelevant
+  if (q['KI Marketing'] && q['Marketing KI']) {
+    const a = q['KI Marketing'], b = q['Marketing KI'];
+    const sameTotal = a.total_results === b.total_results;
+    const sameTop1  = a.results[0]?.angebot_id === b.results[0]?.angebot_id;
+    out.t6 = {
+      pass: sameTotal && sameTop1,
+      detail: `"KI Marketing" ${a.total_results.toLocaleString('de-DE')} Treffer · "Marketing KI" ${b.total_results.toLocaleString('de-DE')} Treffer · Platz 1 ${sameTop1 ? 'identisch' : 'unterschiedlich'}`,
+    };
+  }
+
+  // T7 — Klammern ignoriert
+  if (q['KI Marketing'] && q['(KI) Marketing']) {
+    const a = q['KI Marketing'], b = q['(KI) Marketing'];
+    const sameTotal = a.total_results === b.total_results;
+    const sameTop1  = a.results[0]?.angebot_id === b.results[0]?.angebot_id;
+    out.t7 = {
+      pass: sameTotal && sameTop1,
+      detail: `"KI Marketing" ${a.total_results.toLocaleString('de-DE')} · "(KI) Marketing" ${b.total_results.toLocaleString('de-DE')} · Platz 1 ${sameTop1 ? 'identisch' : 'unterschiedlich'}`,
+    };
+  }
+
+  // T2 — AND-Suche: mehr Wörter → weniger Treffer
+  const chain = ['Marketing', 'KI Marketing', 'KI Marketing Manager'];
+  if (chain.every(qq => q[qq])) {
+    const t = chain.map(qq => q[qq].total_results);
+    out.t2 = {
+      pass: t[0] > t[1] && t[1] > t[2],
+      detail: chain.map((qq, i) => `"${qq}" ${t[i].toLocaleString('de-DE')}`).join('  →  '),
+    };
+  }
+
+  // T10 — Einwort-Suche: nackter Kurztitel gewinnt
+  const single = ['Marketing', 'KI'];
+  out.t10 = single.filter(qq => q[qq]).map(qq => {
+    const top1 = q[qq].results[0];
+    return { q: qq, titel: top1.titel, titel_len: top1.titel_len };
+  });
+
+  // T8 — Doppelkeyword-Effekt bei distinktiven Wörtern (Top-1 schaut)
+  const distinctive = ['Content Marketing', 'Social Media Marketing', 'E-Commerce Marketing'];
+  out.t8 = distinctive.filter(qq => q[qq]).map(qq => {
+    const top1 = q[qq].results[0];
+    return { q: qq, titel: top1.titel, q_words: top1.q_words_in_titel };
+  });
+
+  // T4 — Kürze hilft: Ø Titellänge Top 1–3 vs. Platz 8–10
+  const sample = ['Content Marketing', 'B2B Vertrieb', 'Marketing Automation'];
+  out.t4 = sample.filter(qq => q[qq] && q[qq].results.length >= 10).map(qq => {
+    const rs = q[qq].results;
+    const top   = avg(rs.slice(0, 3).map(r => r.titel_len));
+    const unten = avg(rs.slice(7, 10).map(r => r.titel_len));
+    return { q: qq, top, unten, wirkt: top < unten };
+  });
+
+  return out;
+}
+
+function renderTheses(t) {
+  const box = document.getElementById('theses');
+  const body = document.getElementById('theses-body');
+  const lines = [];
+  const mark = (ok) => ok ? '<span class="ok">✓</span>' : '<span class="fail">✗</span>';
+
+  if (t.t6) {
+    lines.push(`<div class="alert">${mark(t.t6.pass)} <strong>T6 Wortreihenfolge irrelevant</strong> — ${escapeHtml(t.t6.detail)}</div>`);
+  }
+  if (t.t7) {
+    lines.push(`<div class="alert">${mark(t.t7.pass)} <strong>T7 Klammern ignoriert</strong> — ${escapeHtml(t.t7.detail)}</div>`);
+  }
+  if (t.t2) {
+    lines.push(`<div class="alert">${mark(t.t2.pass)} <strong>T2 Mehr Wörter = weniger Treffer (AND-Suche)</strong> — ${escapeHtml(t.t2.detail)}</div>`);
+  }
+
+  if (t.t10 && t.t10.length) {
+    lines.push(`<div class="alert thesis-group">T10 Einwort-Suche: nackter Kurztitel gewinnt</div>`);
+    for (const it of t.t10) {
+      const ok = it.titel_len < 20;
+      lines.push(`<div class="alert thesis-item">${mark(ok)} '${escapeHtml(it.q)}' Platz 1: "${escapeHtml(it.titel)}" <span class="dim">(${it.titel_len} Zeichen)</span></div>`);
+    }
+  }
+
+  if (t.t8 && t.t8.length) {
+    lines.push(`<div class="alert thesis-group">T8 Doppelkeyword bei distinktiven Wörtern (Platz 1 hat das Kernwort 2×)</div>`);
+    for (const it of t.t8) {
+      const ok = it.q_words >= 3;
+      lines.push(`<div class="alert thesis-item">${mark(ok)} '${escapeHtml(it.q)}' Platz 1: "${escapeHtml(it.titel)}" <span class="dim">(q_words_in_titel=${it.q_words})</span></div>`);
+    }
+  }
+
+  if (t.t4 && t.t4.length) {
+    lines.push(`<div class="alert thesis-group">T4 Kürze hilft (Ø Titellänge Top 1-3 vs. Platz 8-10)</div>`);
+    for (const it of t.t4) {
+      lines.push(`<div class="alert thesis-item">${mark(it.wirkt)} '${escapeHtml(it.q)}': Top1-3 ${it.top.toFixed(0)} Zeichen, Platz 8-10 ${it.unten.toFixed(0)} Zeichen</div>`);
+    }
+  }
+
+  if (!lines.length) {
+    body.innerHTML = '<p>Keine Kontroll-Queries im aktuellen Snapshot — Thesen-Belege erscheinen, sobald der nächste Workflow-Lauf durch ist.</p>';
+  } else {
+    body.innerHTML = lines.join('');
+  }
+  box.hidden = false;
+}
+
 (async () => {
   try {
     const { today, yesterday } = await loadData();
     const alerts = computeAlerts(today, yesterday);
     renderAlerts(alerts, !!yesterday);
+    const theses = computeTheses(today);
+    renderTheses(theses);
     renderLists(today, yesterday);
     document.getElementById('meta').textContent =
       `Letzter Snapshot: ${new Date(today.run_at).toLocaleString('de-DE')}`;

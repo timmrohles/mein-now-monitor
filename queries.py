@@ -53,7 +53,20 @@ CONTROL_QUERIES = [
     "(KI) Marketing",
 ]
 
+OUR_TITLES = [
+    # Geplante eigene Modul-Titel (noch nicht im Index). Baseline jetzt
+    # gegen die heutigen Treffer — sobald eingereicht, sehen wir hier
+    # direkt, wo unser eigener Eintrag für die exakte Titel-Suche landet.
+    "Marketing Manager mit KI: Agenten und Automatisierung",
+    "Content Marketing und Content Automatisierung mit KI",
+    "Social Media Marketing und Social Media Automatisierung mit KI",
+    "Performance Marketing und Ads-Automatisierung mit KI",
+    "Marketing-Automation Manager: Pipelines, MCP und Workflows mit KI",
+    "E-Commerce Marketing und E-Commerce Automatisierung mit KI",
+    "B2B Vertrieb und Sales-Automatisierung mit KI",
+]
+
 # Wie viele Plätze pro Begriff protokolliert werden
 TOP_N = 20
 
-ALL_QUERIES = OUR_TARGETS + MARKET_WATCH + CONTROL_QUERIES
+ALL_QUERIES = OUR_TARGETS + MARKET_WATCH + CONTROL_QUERIES + OUR_TITLES
