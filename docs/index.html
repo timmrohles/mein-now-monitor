@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>mein-NOW Monitor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+<style>
+  :root { --pico-spacing: 0.6rem; }
+  body { max-width: 920px; margin: 1.5rem auto; padding: 0 1rem; }
+  h1   { margin-bottom: 0.2rem; }
+  .meta { color: var(--pico-muted-color); font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .alerts { background: var(--pico-card-background-color); border-radius: 0.4rem;
+            padding: 1rem 1.25rem; margin-bottom: 2rem; }
+  .alert  { font-family: ui-monospace, monospace; font-size: 0.85rem; line-height: 1.5; }
+  .alerts h2 { margin-top: 0; }
+  details { margin-bottom: 1.4rem; }
+  summary { font-weight: 600; cursor: pointer; padding: 0.5rem 0; }
+  summary .total { color: var(--pico-muted-color); font-weight: 400; font-size: 0.9rem; }
+  table { font-size: 0.9rem; }
+  td, th { padding: 0.35rem 0.5rem; }
+  td.pos { width: 2.5rem; text-align: right; color: var(--pico-muted-color); }
+  td.delta { width: 4rem; font-family: ui-monospace, monospace; font-size: 0.85rem; }
+  .up   { color: #1a7f37; }
+  .down { color: #c93636; }
+  .new  { color: #5a3eb8; font-weight: 600; }
+  .anb  { color: var(--pico-muted-color); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<h1>mein-NOW Monitor</h1>
+<div class="meta" id="meta">lädt…</div>
+
+<section class="alerts" id="alerts" hidden>
+  <h2>Auffälligkeiten</h2>
+  <div id="alerts-body"></div>
+</section>
+
+<section id="lists"></section>
+
+<script>
+const POSITION_JUMP = 5;    // gleiche Schwellen wie detect_changes.py
+const TOTAL_PCT     = 0.15;
+const TOP_SHOW      = 10;
+
+async function loadData() {
+  const idx = await (await fetchJson('data/index.json')).json();
+  const dates = idx.dates || [];
+  if (!dates.length) throw new Error('Noch keine Snapshots im Repo.');
+  const today = await (await fetchJson(`data/${dates[0]}.json`)).json();
+  let yesterday = null;
+  if (dates.length >= 2) {
+    yesterday = await (await fetchJson(`data/${dates[1]}.json`)).json();
+  }
+  return { today, yesterday };
+}
+
+async function fetchJson(path) {
+  const r = await fetch(path, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+  return r;
+}
+
+function computeAlerts(today, yesterday) {
+  const jumps = [], newTop5 = [], totalShifts = [];
+  if (!yesterday) return { jumps, newTop5, totalShifts };
+  for (const [q, d] of Object.entries(today.queries)) {
+    const old = yesterday.queries[q];
+    if (!old) continue;
+    if (old.total_results && d.total_results) {
+      const change = (d.total_results - old.total_results) / old.total_results;
+      if (Math.abs(change) >= TOTAL_PCT) {
+        totalShifts.push({ q, old: old.total_results, neu: d.total_results, pct: change });
+      }
+    }
+    const ydayMap = new Map(old.results.map(r => [r.angebot_id, r.position]));
+    for (const r of d.results) {
+      const op = ydayMap.get(r.angebot_id);
+      if (op === undefined) {
+        if (r.position <= 5) newTop5.push({ q, titel: r.titel, pos: r.position });
+      } else {
+        const diff = op - r.position;
+        if (Math.abs(diff) >= POSITION_JUMP) {
+          jumps.push({ q, titel: r.titel, oldPos: op, newPos: r.position });
+        }
+      }
+    }
+  }
+  return { jumps, newTop5, totalShifts };
+}
+
+function renderAlerts(a, hasYesterday) {
+  const box  = document.getElementById('alerts');
+  const body = document.getElementById('alerts-body');
+  box.hidden = false;
+  if (!hasYesterday) {
+    body.innerHTML = '<p>Noch keine Vergleichsbasis — es gibt erst einen Snapshot. Auffälligkeiten erscheinen ab dem zweiten Lauf.</p>';
+    return;
+  }
+  const total = a.jumps.length + a.newTop5.length + a.totalShifts.length;
+  if (total === 0) {
+    body.innerHTML = '<p>Keine Auffälligkeiten über den Schwellen. Markt stabil.</p>';
+    return;
+  }
+  const head = `<p><strong>${a.jumps.length}</strong> Positionssprünge · <strong>${a.newTop5.length}</strong> neue Top-5 · <strong>${a.totalShifts.length}</strong> Trefferzahl-Wechsel</p>`;
+  const lines = [];
+  for (const x of a.jumps) {
+    const arrow = x.newPos < x.oldPos ? '▲' : '▼';
+    const cls   = x.newPos < x.oldPos ? 'up' : 'down';
+    lines.push(`<div class="alert"><span class="${cls}">[SPRUNG ${arrow}]</span> '${escapeHtml(x.q)}': ${escapeHtml(x.titel)} — Platz ${x.oldPos} → ${x.newPos}</div>`);
+  }
+  for (const x of a.newTop5) {
+    lines.push(`<div class="alert"><span class="new">[NEU TOP5]</span> '${escapeHtml(x.q)}': ${escapeHtml(x.titel)} — Platz ${x.pos}</div>`);
+  }
+  for (const x of a.totalShifts) {
+    const sign = x.pct > 0 ? '+' : '';
+    lines.push(`<div class="alert">[TREFFERZAHL] '${escapeHtml(x.q)}': ${x.old} → ${x.neu} (${sign}${(x.pct*100).toFixed(0)} %)</div>`);
+  }
+  body.innerHTML = head + lines.join('');
+}
+
+function renderLists(today, yesterday) {
+  const root = document.getElementById('lists');
+  const queries = Object.keys(today.queries).sort();
+  const html = [];
+  for (const q of queries) {
+    const d = today.queries[q];
+    const old = yesterday && yesterday.queries ? yesterday.queries[q] : null;
+    const ydayMap = new Map((old?.results || []).map(r => [r.angebot_id, r.position]));
+    const totalLabel = d.total_results != null
+      ? `${d.total_results.toLocaleString('de-DE')} Treffer` : '';
+    html.push(`<details open><summary>${escapeHtml(q)} <span class="total">— ${totalLabel}</span></summary>`);
+    html.push('<table><tbody>');
+    for (const r of d.results.slice(0, TOP_SHOW)) {
+      const op = ydayMap.get(r.angebot_id);
+      let delta = '<span class="anb">·</span>';
+      if (old && op === undefined)              delta = `<span class="new">NEU</span>`;
+      else if (op !== undefined && op > r.position) delta = `<span class="up">▲ ${op - r.position}</span>`;
+      else if (op !== undefined && op < r.position) delta = `<span class="down">▼ ${r.position - op}</span>`;
+      html.push(`<tr>
+        <td class="pos">${r.position}.</td>
+        <td>${escapeHtml(r.titel || '')}<br><span class="anb">${escapeHtml(r.anbieter || '')}</span></td>
+        <td class="delta">${delta}</td>
+      </tr>`);
+    }
+    html.push('</tbody></table></details>');
+  }
+  root.innerHTML = html.join('');
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+(async () => {
+  try {
+    const { today, yesterday } = await loadData();
+    const alerts = computeAlerts(today, yesterday);
+    renderAlerts(alerts, !!yesterday);
+    renderLists(today, yesterday);
+    document.getElementById('meta').textContent =
+      `Letzter Snapshot: ${new Date(today.run_at).toLocaleString('de-DE')}`;
+  } catch (e) {
+    document.getElementById('meta').textContent = `Fehler: ${e.message}`;
+  }
+})();
+</script>
+</body>
+</html>
