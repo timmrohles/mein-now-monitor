@@ -66,7 +66,28 @@ OUR_TITLES = [
     "B2B Vertrieb und Sales-Automatisierung mit KI",
 ]
 
+TRIPLE_PATTERN_QUERIES = [
+    # HECKER-Stil: Topic + (Topic-Fachfrau / Topic-Fachmann) — bringt das
+    # distinktive Kernwort 3× im Titel unter. Diese Queries dienen zwei Zwecken:
+    # 1) Aufklärung — welche Anbieter nutzen das Tripple-Muster schon?
+    # 2) Wenn wir später selbst eine Variante mit diesem Muster einreichen,
+    #    haben wir die Vorher-Nachher-Baseline.
+    "KI-Marketing-Manager (KI-Marketing-Fachfrau / KI-Marketing-Fachmann)",
+    "Content Marketing (Content Marketing Fachfrau / Content Marketing Fachmann)",
+    "Social Media Marketing (Social Media Fachfrau / Social Media Fachmann)",
+    "Performance Marketing (Performance Marketing Fachfrau / Performance Marketing Fachmann)",
+    "Marketing Automation (Marketing Automation Fachfrau / Marketing Automation Fachmann)",
+    "E-Commerce Marketing (E-Commerce Fachfrau / E-Commerce Fachmann)",
+    "B2B Vertrieb (B2B Sales Fachfrau / B2B Sales Fachmann)",
+]
+
 # Wie viele Plätze pro Begriff protokolliert werden
 TOP_N = 20
 
-ALL_QUERIES = OUR_TARGETS + MARKET_WATCH + CONTROL_QUERIES + OUR_TITLES
+ALL_QUERIES = (
+    OUR_TARGETS
+    + MARKET_WATCH
+    + CONTROL_QUERIES
+    + OUR_TITLES
+    + TRIPLE_PATTERN_QUERIES
+)
