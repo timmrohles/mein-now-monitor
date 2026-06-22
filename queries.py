@@ -81,6 +81,25 @@ TRIPLE_PATTERN_QUERIES = [
     "B2B Vertrieb (B2B Sales Fachfrau / B2B Sales Fachmann)",
 ]
 
+PROPOSED_VARIANTS = [
+    # Variant-Vorschläge zu OUR_TITLES, die in den Strategie-Diskussionen
+    # entstanden sind. Wir monitoren sie als Queries, um zu sehen, wer
+    # heute für diese exakten Wort-Kombinationen rankt — und um eine
+    # saubere Vorher-Nachher-Baseline zu haben, falls wir tatsächlich
+    # eine Variante einreichen.
+    #
+    # M1: KI 3× über Bindestriche, statt einfaches "mit KI"-Suffix —
+    # adressiert das LOSE-Verdict bei "KI Marketing Manager" (heutiger
+    # Top1 verdoppelt "Manager", unser Original verdoppelt nichts).
+    "KI-Marketing-Manager: KI-Agenten und KI-Automatisierung",
+    # M5: Tripple-Variante OHNE MCP (das ohnehin von der Engine gedroppt
+    # wird), sauber im HECKER-Stil. Marketing Automation 3×.
+    "Marketing Automation Manager (Marketing Automation Fachfrau / Marketing Automation Fachmann)",
+    # M7: Tripple-Variante mit "B2B Vertrieb" 3× plus "KI" 1×. Kombiniert
+    # die Modul-Disziplin mit dem KI-Anker.
+    "B2B Vertrieb mit KI (B2B Vertrieb Fachfrau / B2B Vertrieb Fachmann)",
+]
+
 # Wie viele Plätze pro Begriff protokolliert werden
 TOP_N = 20
 
@@ -90,4 +109,5 @@ ALL_QUERIES = (
     + CONTROL_QUERIES
     + OUR_TITLES
     + TRIPLE_PATTERN_QUERIES
+    + PROPOSED_VARIANTS
 )
