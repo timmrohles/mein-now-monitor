@@ -2,7 +2,8 @@ name: Daily Snapshot
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # täglich 06:00 UTC
+    - cron: '0 6 * * *'    # täglich 06:00 UTC (Morgen-Lauf)
+    - cron: '0 18 * * *'   # täglich 18:00 UTC (Abend-Lauf) — Volatilitäts-Sicht
   workflow_dispatch:       # erlaubt manuellen Trigger über die GH UI
 
 permissions:
@@ -34,6 +35,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "data: snapshot $(date -u +%Y-%m-%d)"
+            git commit -m "data: snapshot $(date -u +%Y-%m-%dT%H%M)"
             git push
           fi

@@ -33,7 +33,7 @@ if __name__ == "__main__":
         print(f"Starte Snapshot über {len(ALL_QUERIES)} Begriffe ...\n")
         result = run_snapshot(verbose=True)
         print("\nErgebnis:")
-        print(f"  Datum:    {result['date']}")
+        print(f"  Snapshot: {result['snapshot_id']}")
         print(f"  Zeilen:   {result['rows_written']}")
         print(f"  Begriffe: {result['queries']}")
         if result["errors"]:

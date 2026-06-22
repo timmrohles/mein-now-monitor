@@ -56,12 +56,13 @@ const TOP_SHOW      = 10;
 
 async function loadData() {
   const idx = await (await fetchJson('data/index.json')).json();
-  const dates = idx.dates || [];
-  if (!dates.length) throw new Error('Noch keine Snapshots im Repo.');
-  const today = await (await fetchJson(`data/${dates[0]}.json`)).json();
+  // Neue Form: "snapshots"; alte Form "dates" als Fallback während der Migration.
+  const ids = idx.snapshots || idx.dates || [];
+  if (!ids.length) throw new Error('Noch keine Snapshots im Repo.');
+  const today = await (await fetchJson(`data/${ids[0]}.json`)).json();
   let yesterday = null;
-  if (dates.length >= 2) {
-    yesterday = await (await fetchJson(`data/${dates[1]}.json`)).json();
+  if (ids.length >= 2) {
+    yesterday = await (await fetchJson(`data/${ids[1]}.json`)).json();
   }
   return { today, yesterday };
 }

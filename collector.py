@@ -119,10 +119,14 @@ def _metrics_for_entry(query, titel, inhalt_text):
 
 
 def run_snapshot(verbose=False):
-    """Kompletter Lauf: alle Begriffe abfragen, Tagesdatei + Index schreiben."""
+    """Kompletter Lauf: alle Begriffe abfragen, Snapshot-Datei + Index schreiben.
+
+    Snapshot-ID = UTC-Zeitstempel auf Minute genau, z. B. '2026-06-18T1800'.
+    Erlaubt mehrere Snapshots pro Tag (morgens + abends) für Volatilitäts-Sicht.
+    """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    run_at = _iso_utc_now()
-    today  = run_at[:10]                     # YYYY-MM-DD
+    run_at      = _iso_utc_now()                    # "2026-06-18T18:13:42Z"
+    snapshot_id = run_at[:16].replace(":", "")      # "2026-06-18T1813"
 
     snapshot = {"run_at": run_at, "queries": {}}
     errors   = []
@@ -158,29 +162,32 @@ def run_snapshot(verbose=False):
             if verbose:
                 print(f"  [!!] {q}: {e}")
 
-    # Tagesdatei schreiben (überschreibt, falls am selben Tag erneut gelaufen)
-    day_file = DATA_DIR / f"{today}.json"
-    day_file.write_text(
+    # Snapshot-Datei schreiben (eine pro Lauf; idR 2× täglich)
+    snap_file = DATA_DIR / f"{snapshot_id}.json"
+    snap_file.write_text(
         json.dumps(snapshot, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
-    # Index aktualisieren (idempotent: Datum wird nur einmal aufgenommen)
+    # Index aktualisieren — neue Form: {"snapshots": [...]} sortiert absteigend.
+    # Alte Form {"dates": [...]} wird einmalig migriert.
     index_file = DATA_DIR / "index.json"
     if index_file.exists():
         index = json.loads(index_file.read_text(encoding="utf-8"))
+        if "snapshots" not in index:
+            index = {"snapshots": index.get("dates", [])}
     else:
-        index = {"dates": []}
-    if today not in index["dates"]:
-        index["dates"].append(today)
-    index["dates"].sort(reverse=True)
+        index = {"snapshots": []}
+    if snapshot_id not in index["snapshots"]:
+        index["snapshots"].append(snapshot_id)
+    index["snapshots"].sort(reverse=True)
     index_file.write_text(
         json.dumps(index, indent=2),
         encoding="utf-8",
     )
 
     return {
-        "date":         today,
+        "snapshot_id":  snapshot_id,
         "run_at":       run_at,
         "queries":      len(snapshot["queries"]),
         "rows_written": sum(len(qd["results"])

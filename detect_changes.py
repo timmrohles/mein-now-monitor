@@ -17,14 +17,17 @@ TOTAL_PCT     = 0.15     # Trefferzahl-Änderung ab 15 % = auffällig
 
 
 def load_index():
+    """Liest Index-Schlüssel der vorhandenen Snapshots (absteigend sortiert)."""
     idx_file = DATA_DIR / "index.json"
     if not idx_file.exists():
         return []
-    return json.loads(idx_file.read_text(encoding="utf-8")).get("dates", [])
+    data = json.loads(idx_file.read_text(encoding="utf-8"))
+    # Neue Form: {"snapshots": [...]}; alte Form {"dates": [...]} als Fallback.
+    return data.get("snapshots") or data.get("dates") or []
 
 
-def load_snapshot(date):
-    return json.loads((DATA_DIR / f"{date}.json").read_text(encoding="utf-8"))
+def load_snapshot(snapshot_id):
+    return json.loads((DATA_DIR / f"{snapshot_id}.json").read_text(encoding="utf-8"))
 
 
 def detect():
@@ -33,9 +36,9 @@ def detect():
         print("Noch nicht genug Snapshots (mindestens 2 nötig).")
         return
 
-    new_date, old_date = dates[0], dates[1]
-    new = load_snapshot(new_date)
-    old = load_snapshot(old_date)
+    new_id, old_id = dates[0], dates[1]
+    new = load_snapshot(new_id)
+    old = load_snapshot(old_id)
     print(f"Vergleich: {old['run_at'][:16]}  →  {new['run_at'][:16]}\n")
 
     alerts = []
