@@ -98,6 +98,13 @@ PROPOSED_VARIANTS = [
     # M7: Tripple-Variante mit "B2B Vertrieb" 3× plus "KI" 1×. Kombiniert
     # die Modul-Disziplin mit dem KI-Anker.
     "B2B Vertrieb mit KI (B2B Vertrieb Fachfrau / B2B Vertrieb Fachmann)",
+    # M5: MCP ist von der Engine gedroppt (27 Treffer Total, removed_token).
+    # Diese Variante ersetzt MCP durch suchstarke Tokens: Workflows (5.454),
+    # Agenten (2.079), Pipelines (2.039). Engineering-Profil bleibt erhalten.
+    "KI-Automation Manager: Workflows, Agenten und Pipelines",
+    # M5 Alternative: Hält den Marketing-Familien-Anschluss, nutzt das
+    # Doppel-Muster Automation/Automatisierung und droppt keinen Token.
+    "Marketing Automation und Workflow-Automatisierung mit KI",
 ]
 
 # Wie viele Plätze pro Begriff protokolliert werden
