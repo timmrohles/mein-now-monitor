@@ -105,6 +105,14 @@ PROPOSED_VARIANTS = [
     # M5 Alternative: Hält den Marketing-Familien-Anschluss, nutzt das
     # Doppel-Muster Automation/Automatisierung und droppt keinen Token.
     "Marketing Automation und Workflow-Automatisierung mit KI",
+    # M4 (neu): Original enthält weder SEO noch SEA — komplette Blindstellen
+    # für zwei häufige kurze User-Suchen. Diese Variante bringt SEO + SEA +
+    # Ads + Performance Marketing + KI in einen Titel.
+    "Performance Marketing mit KI: SEO, SEA und Ads-Automatisierung",
+    # M5 (neu, favorisiert): "Marketing" 2x und "Automation" 2x (via
+    # "Marketing Automation" + "Prozess-Automation") -> echter Score-Vorteil
+    # (q=4 gegen aktuelle Top-1 q=2) ohne Fachfrau/MCP-Fallen.
+    "Marketing Automation Manager: Marketing Prozess-Automation mit KI",
 ]
 
 # Wie viele Plätze pro Begriff protokolliert werden
